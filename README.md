@@ -6,7 +6,7 @@
 
 `2º semestre / 2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O site tem como objetivo fornecer aos usuários informações relevantes a respeito de exercícios feitos na academia, de modo a auxiliar qualquer pessoa que esteja começando ou queira aperfeiçoar seus treinos.
 
 ## Integrantes
 
