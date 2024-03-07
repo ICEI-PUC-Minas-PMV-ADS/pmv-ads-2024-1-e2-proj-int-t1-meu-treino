@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# Meu Treino
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
-`DISCIPLINA`
+`Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`2º semestre / 2024`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Adriana Pereira Nascimento
+* Douglas Rodrigues Araujo
+* Jose Vitor da Silva Souza
+* Natália Romero Soltau
+* Paula Carina dos Santos
 
 ## Orientador
 
-* Nome completo do professor 1
+* Rosilane Ribeiro da Mota
 
 ## Instruções de utilização
 
