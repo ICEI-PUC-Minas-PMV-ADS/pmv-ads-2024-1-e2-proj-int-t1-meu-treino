@@ -13,6 +13,7 @@ O site tem como objetivo fornecer aos usuários informações relevantes a respe
 * Adriana Pereira Nascimento
 * Douglas Rodrigues Araujo
 * Jose Vitor da Silva Souza
+* Lucas Gonçalves de Souza Silva
 * Natália Romero Soltau
 * Paula Carina dos Santos
 
