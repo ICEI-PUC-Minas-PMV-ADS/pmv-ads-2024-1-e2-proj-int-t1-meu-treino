@@ -9,8 +9,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 Nome: Lucas
+<br>
 Idade: 20 anos
+<br>
 Descrição da Persona:
+<br>
 Lucas é uma pessoa que gosta de musculação e está sempre em busca de maneiras inovadoras de aprimorar seus treinos, ele procura constantemente ferramentas que o ajudem a atingir seus objetivos.
 
 Nome: Douglas
