@@ -50,8 +50,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | gostaria de visualizar algo que possa me auxiliar nos movimentos dos exercício           |  para que eu possa executá-los corretamente               |
-|Usuário do Sistema       | gostaria de encontrar novos exercícios de maneira fácil.                | para que eu consiga diversificar meus treinos. |
+|Usuário do sistema| gostaria de visualizar algo que possa me auxiliar nos movimentos dos exercício           |  para que eu possa executá-los corretamente               |
+|Usuário do Sistema| gostaria de encontrar novos exercícios de maneira fácil.                | para que eu consiga diversificar meus treinos. |
 |Usuário do sistema  | gostaria de conseguir ter um direcionamento.           |  para que eu possa fazer meus treinos diários corretamente.               |
 |Usuário do sistema  | gostaria de ter um acompanhamento da minha evolução.           |  para que eu possa ter noção da evolução.              |
 |Usuário do sistema  | gostaria de encontrar exercícios específicos para cada grupo muscular.           |  para que eu possa focar em pontos fracos.               |
