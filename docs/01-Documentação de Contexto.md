@@ -1,6 +1,6 @@
 # Introdução
 
-A procura por um estilo de vida mais saudável tem aumentado nos últimos anos, o que tem levado muitas pessoas a buscarem informações e orientações para iniciar ou aprimorar seus treinos, sendo a musculação a principal escolha. O desafio de iniciar uma jornada fitness, especialmente na musculação, pode ser intimidante para muitos indivíduos. A falta de uma via moderna e integrada para orientar os iniciantes nesse estilo de vida saudável resulta em dificuldades significativas. Esse projeto tem como objetivo auxiliar essas pessoas, trazendo dicas de treino e, também, acompanhando sua evolução.
+
 
 ## Problema
 
@@ -13,7 +13,7 @@ O problema que este projeto visa abordar é a escassez  de uma via moderna que i
 
 ## Objetivos
 
-O site tem como objetivo fornecer aos usuários informações relevantes a respeito de exercícios feitos na academia, de modo a auxiliar qualquer pessoa que esteja começando ou queira aperfeiçoar seus treinos. Além disso, é possível acompanhar sua evolução, podendo registrar seu peso e calcular o IMC.
+
 
  
 > **Links Úteis REMOVER DEPOIS**:
@@ -21,7 +21,7 @@ O site tem como objetivo fornecer aos usuários informações relevantes a respe
 
 ## Justificativa
 
-A prática de exercícios físicos é essencial para manter uma boa saúde e bem-estar. Com a crescente demanda por informações sobre treinamento e musculação, por ser uma das mais populares e eficazes para manter o condicionamento físico, perda de peso e melhoria da qualidade de vida, a criação de uma plataforma que integra tecnologias emergentes para aprimorar os treinos, se mostra relevante e justificável.
+
 
 
 > **Links Úteis REMOVER DEPOIS**:
@@ -29,8 +29,7 @@ A prática de exercícios físicos é essencial para manter uma boa saúde e bem
 
 ## Público-Alvo
 
-O site é feito sob medida para pessoas que buscam atingir seus objetivos de saúde e bem-estar. Nosso público é bem diversificado, composto por homens e mulheres de todas as idades que buscam uma vida ativa e saudável.
-Se você é novo na academia, ou uma pessoa já experiente em busca de novos exercícios, o nosso site é projetado para atender sua necessidade, proporcionando uma experiência única.
+
 
 
 > **Links Úteis**:
