@@ -17,23 +17,35 @@ Descrição da Persona:
 Lucas é uma pessoa que gosta de musculação e está sempre em busca de maneiras inovadoras de aprimorar seus treinos, ele procura constantemente ferramentas que o ajudem a atingir seus objetivos.
 
 Nome: Douglas
+<br>
 Idade: 20 anos
+<br>
 Descrição da persona:
+<br>
 Douglas é uma pessoa que busca alcançar seu IMC ideal, porém lida com uma vida corrida e precisa de auxílio para montar seus treinos.
 
 Nome: Natália
+<br>
 Idade: 23 anos
+<br>
 Descrição da persona:
+<br>
 Natália está buscando um estilo de vida mais saudável e decidiu iniciar a academia, porém não tem muito conhecimento dos exercícios.
 
 Nome: Alice
+<br>
 Idade: 26 anos
+<br>
 Descrição:
+<br>
 Alice é uma pessoa sedentária que busca mudar esse estilo de vida iniciando a academia, seu objetivo é encontrar algum aplicativo que a facilite a criar treinos sem que precise recorrer a um personal.
 
 Nome: Adriana
+<br>
 Idade: 25 anos
+<br>
 Descrição:
+<br>
 Adriana é apaixonada por musculação, mas recentemente percebeu que sua energia e desempenho nos treinos não eram mais os mesmos. Seu objetivo é encontrar algum aplicativo com treinamento adaptados aos seus objetivos e nível de condicionamento físico
 
 
@@ -53,18 +65,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema| gostaria de visualizar algo que possa me auxiliar nos movimentos dos exercício           |  para que eu possa executá-los corretamente               |
-|Usuário do Sistema| gostaria de encontrar novos exercícios de maneira fácil.                | para que eu consiga diversificar meus treinos. |
-|Usuário do sistema  | gostaria de conseguir ter um direcionamento.           |  para que eu possa fazer meus treinos diários corretamente.               |
-|Usuário do sistema  | gostaria de ter um acompanhamento da minha evolução.           |  para que eu possa ter noção da evolução.              |
-|Usuário do sistema  | gostaria de encontrar exercícios específicos para cada grupo muscular.           |  para que eu possa focar em pontos fracos.               |
-|Usuário do sistema  | gostaria de ter acesso a informações sobre cada exercício.           |  para que eu possa entendelos corretamente.               |
-|Usuário do sistema  | gostaria de ter acesso a um guia simples e claro.          |   para que eu possa começar as atividades físicas.               |
-|Usuário do sistema  | gostaria de ter acesso fácil aos treinos rápidos que posso realizar em casa.           |  para que eu possa otimizar o meu tempo.               |
-|Usuário do sistema  | gostaria de encontrar exercícios para o meu tipo de nível de condicionamento físico.           |  para que eu nao ultrapasse os limites de um iniciante.             |
-|Usuário do sistema  | gostaria de encontrar exercícios adaptados ao meu objetivo pessoal.           |  para que eu possa executá-los da maneira mais rapido possivel.              |
-|Usuário do sistema  | quero  encontrar treinos curtos e eficazes que possa fazer.           |  para me manter ativa e saudável.              |
-|Usuário do sistema  |  preciso adaptar os exercícios à minha agenda.           |  para garantir que estou fazendo escolhas realistas e sustentáveis em relação ao meu programa de exercícios.            |
+|Usuário| Gostaria de visualizar algo que possa me auxiliar nos movimentos dos exercício           |  Para que eu possa executá-los corretamente               |
+|Usuário| Gostaria de encontrar novos exercícios de maneira fácil.                | Para que eu consiga diversificar meus treinos. |
+|Usuário| Gostaria de conseguir ter um direcionamento.           |  Para que eu possa fazer meus treinos diários corretamente.               |
+|Usuário| Gostaria de ter um acompanhamento da minha evolução.           |  Para que eu possa ter noção da evolução.              |
+|Usuário| Gostaria de encontrar exercícios específicos para cada grupo muscular.           |  Para que eu possa focar em pontos fracos.               |
+|Usuário| Gostaria de ter acesso a informações sobre cada exercício.           |  Para que eu possa entendelos corretamente.               |
+|Usuário| Gostaria de ter acesso a um guia simples e claro.          |   Para que eu possa começar as atividades físicas.               |
+|Usuário| Gostaria de ter acesso fácil aos treinos rápidos que posso realizar em casa.           |  Para que eu possa otimizar o meu tempo.               |
+|Usuário| Gostaria de encontrar exercícios para o meu tipo de nível de condicionamento físico.           |  Para que eu nao ultrapasse os limites de um iniciante.             |
+|Usuário| Gostaria de encontrar exercícios adaptados ao meu objetivo pessoal.           |  Para que eu possa executá-los da maneira mais rapido possivel.              |
+|Usuário| Quero  encontrar treinos curtos e eficazes que possa fazer.           |  Para me manter ativa e saudável.              |
+|Usuário| Preciso adaptar os exercícios à minha agenda.           |  Para garantir que estou fazendo escolhas realistas e sustentáveis em relação ao meu programa de exercícios.            |
 
 
 > **Links Úteis REMOVER DEPOIS**:
@@ -97,12 +109,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | ALTA | 
-|RNF-002| A aplicação deve ser acessível e fácil de usar em dispositivos móveis, como smartphones e tablets |  ALTA |
-|RNF-003| A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome e Microsoft Edge | ALTA |
-|RNF-004| A aplicação deve garantir um carregamento de no maximo 10 segundos, mesmo em conexões de internet mais lentas | MÉDIA |
-|RNF-005| A aplicação deve ter uma interface simples que permita aos usuários encontrar facilmente as informações desejadas. | ALTA |
-|RNF-006| Atender aos padrões MVC | MÉDIA | 
+|RNF-001 |A aplicação deve ser responsiva | ALTA | 
+|RNF-002 | A aplicação deve ser acessível e fácil de usar em dispositivos móveis, como smartphones e tablets |  ALTA |
+|RNF-003 | A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome e Microsoft Edge | ALTA |
+|RNF-004 | A aplicação deve garantir um carregamento de no maximo 10 segundos, mesmo em conexões de internet mais lentas | MÉDIA |
+|RNF-005 | A aplicação deve ter uma interface simples que permita aos usuários encontrar facilmente as informações desejadas. | ALTA |
+|RNF-006 | Atender aos padrões MVC | MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
