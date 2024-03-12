@@ -27,10 +27,6 @@ O site tem como objetivo fornecer aos usuários informações relevantes a respe
 ## Público-Alvo
 
 
+O site é feito sob medida para pessoas que buscam atingir seus objetivos de saúde e bem-estar. Nosso público é bem diversificado, composto por homens e mulheres de todas as idades que buscam uma vida ativa e saudável.
+Se você é novo na academia, ou uma pessoa já experiente em busca de novos exercícios, o nosso site é projetado para atender sua necessidade, proporcionando uma experiência única.
 
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
