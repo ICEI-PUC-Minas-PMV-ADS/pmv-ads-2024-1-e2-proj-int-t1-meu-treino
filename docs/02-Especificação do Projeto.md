@@ -24,11 +24,13 @@ Descrição da Persona:
 <br>
 Douglas é uma pessoa que busca alcançar seu IMC ideal, porém lida com uma vida corrida e precisa de auxílio para montar seus treinos.
 
+Nome: Alice <br>
+Idade: 26 anos <br>
+Descrição:
+Alice é uma pessoa sedentária que busca mudar esse estilo de vida iniciando a academia, seu objetivo é encontrar algum aplicativo que a facilite a criar treinos sem que precise recorrer a um personal.
 
 
 
-
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -40,6 +42,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário| Gostaria de encontrar novos exercícios de maneira fácil.                | Para que eu consiga diversificar meus treinos. |
 |Usuário| Eu como usuário gostaria de conseguir ter um direcionamento para oque fazer em meus treinos diários. |  Para que eu tenha um direção de como devo prosseguir com meu treino |
 |Usuário| Eu como usuário gostaria de ter um acompanhamento da minha evolução.                | Para que eu possa alcançar meu objetivo de saúde ideal. |
+|Usuário| Eu, como usuário iniciante em musculação, gostaria de ter acesso a um guia simples e claro | Para começar as atividades físicas. |
+|Usuário| Eu, como usuário iniciante em musculação, gostaria de ter acesso fácil aos treinos rápidos | Para poder realizá-los em casa. |
 
 
 ## Requisitos
