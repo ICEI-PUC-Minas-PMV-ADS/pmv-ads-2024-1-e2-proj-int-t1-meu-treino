@@ -56,29 +56,20 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |------|-----------------------------------------|----|
 |RF-001| Deve ter uma avaliação para cada exercício  | BAIXA |
 |RF-002| A aplicação deve permitir ao usuário calcular seu IMC | ALTA  |
+|RF-003| A aplicação deve permitir incluir exercícios ao favorito | MÉDIA  |
+|RF-004| Apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração. | ALTA  |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|A aplicação deve ser responsiva | ALTA | 
+|RNF-001| A aplicação deve ser responsiva | ALTA | 
 |RNF-002| A aplicação deve ser acessível e fácil de usar em dispositivos móveis, como smartphones e tablets |  ALTA |
- 
+|RNF-003| A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome e Microsoft Edge |  ALTA |
+|RNF-004| A aplicação deve garantir um carregamento rápido das imagens, mesmo em conexões de internet mais lentas | MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -86,7 +77,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01|  |
+|RE-01| O site deve se concentrar exclusivamente em conteúdo relacionado à musculação, incluindo treinamento, equipamentos
 
 
 
