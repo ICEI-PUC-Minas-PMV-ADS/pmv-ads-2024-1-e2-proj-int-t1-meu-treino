@@ -18,11 +18,8 @@ O site tem como objetivo fornecer aos usuários informações relevantes a respe
 
 ## Justificativa
 
+A prática de exercícios físicos é essencial para manter uma boa saúde e bem-estar. Com a crescente demanda por informações sobre treinamento e musculação, por ser uma das mais populares e eficazes para manter o condicionamento físico, perda de peso e melhoria da qualidade de vida, a criação de uma plataforma que integra tecnologias emergentes para aprimorar os treinos, se mostra relevante e justificável.
 
-
-
-> **Links Úteis REMOVER DEPOIS**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
