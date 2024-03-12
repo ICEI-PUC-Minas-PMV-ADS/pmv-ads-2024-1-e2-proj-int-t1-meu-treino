@@ -13,11 +13,8 @@ O problema que este projeto visa abordar é a escassez  de uma via moderna que i
 
 ## Objetivos
 
+O site tem como objetivo fornecer aos usuários informações relevantes a respeito de exercícios feitos na academia, de modo a auxiliar qualquer pessoa que esteja começando ou queira aperfeiçoar seus treinos. Além disso, é possível acompanhar sua evolução, podendo registrar seu peso e calcular o IMC.
 
-
- 
-> **Links Úteis REMOVER DEPOIS**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
