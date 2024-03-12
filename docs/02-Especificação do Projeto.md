@@ -16,17 +16,18 @@ Descrição da Persona:
 <br>
 Lucas é uma pessoa que gosta de musculação e está sempre em busca de maneiras inovadoras de aprimorar seus treinos, ele procura constantemente ferramentas que o ajudem a atingir seus objetivos.
 
+Nome: Douglas
+<br>
+Idade: 20 anos
+<br>
+Descrição da Persona:
+<br>
+Douglas é uma pessoa que busca alcançar seu IMC ideal, porém lida com uma vida corrida e precisa de auxílio para montar seus treinos.
 
 
 
-> **Links Úteis REMOVER DEPOIS**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
+
+
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
@@ -37,15 +38,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário| Gostaria de visualizar algo que possa me auxiliar nos movimentos dos exercício           |  Para que eu possa executá-los corretamente               |
 |Usuário| Gostaria de encontrar novos exercícios de maneira fácil.                | Para que eu consiga diversificar meus treinos. |
+|Usuário| Eu como usuário gostaria de conseguir ter um direcionamento para oque fazer em meus treinos diários. |  Para que eu tenha um direção de como devo prosseguir com meu treino |
+|Usuário| Eu como usuário gostaria de ter um acompanhamento da minha evolução.                | Para que eu possa alcançar meu objetivo de saúde ideal. |
 
-
-
-> **Links Úteis REMOVER DEPOIS**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
