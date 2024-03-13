@@ -77,15 +77,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RE-01| O site deve se concentrar exclusivamente em conteúdo relacionado à musculação, incluindo treinamento, equipamentos
+|RE-01| O site deve se concentrar exclusivamente em conteúdo relacionado à musculação, incluindo treinamento, equipamentos|
+|RE-02| O site deve ser projetado para atender às necessidades de iniciantes que  estão aptos a treinar e que queiram praticar atividades físicas |
+|RE-03| O conteúdo do site deve ser preciso, relevante e baseado em evidências científicas, fornecendo informações úteis e confiáveis sobre treinamento de musculação e saúde. |
+|RE-04| O projeto deverá ser entregue até o final do semestre letivo, não podendo extrapolar a data final |
+|RE-05| A equipe de projeto será restrita aos membros do grupo. |
+|RE-06| O site deve ser otimizado para dispositivos móveis e oferecer uma experiência de usuário consistente em diferentes tamanhos de tela e dispositivos. |
 
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
