@@ -24,6 +24,15 @@ Descrição da Persona:
 <br>
 Douglas é uma pessoa que busca alcançar seu IMC ideal, porém lida com uma vida corrida e precisa de auxílio para montar seus treinos.
 
+Nome: Natália
+<br>
+Idade: 23 anos
+<br>
+Descrição:
+<br>
+Natália está buscando um estilo de vida mais saudável e decidiu iniciar a academia, porém não tem muito conhecimento dos exercícios.
+
+
 Nome: Alice <br>
 Idade: 26 anos <br>
 Descrição:
@@ -44,6 +53,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário| Eu como usuário gostaria de ter um acompanhamento da minha evolução.                | Para que eu possa alcançar meu objetivo de saúde ideal. |
 |Usuário| Eu, como usuário iniciante em musculação, gostaria de ter acesso a um guia simples e claro | Para começar as atividades físicas. |
 |Usuário| Eu, como usuário iniciante em musculação, gostaria de ter acesso fácil aos treinos rápidos | Para poder realizá-los em casa. |
+|Usuário| Eu como usuário gostaria de encontrar exercícios específicos para cada grupo muscular.| Para poder criar treinos mais específicos. |
+|Usuário| Eu como usuário gostaria de ter acesso a informações sobre cada exercício. | Para direcionar meu treino para meus objetivos. |
 
 
 ## Requisitos
@@ -58,7 +69,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-002| A aplicação deve permitir ao usuário calcular seu IMC | ALTA  |
 |RF-003| A aplicação deve permitir incluir exercícios ao favorito | MÉDIA  |
 |RF-004| Apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração. | ALTA  |
-
+|RF-005| Capacidade de pesquisar exercícios por nome, grupo muscular ou equipamento necessário. | MÉDIA| 
+|RF-006| A administração deve ter a capacidade de adicionar, editar ou remover exercícios. | ALTA|
 
 ### Requisitos não Funcionais
 
@@ -68,6 +80,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-002| A aplicação deve ser acessível e fácil de usar em dispositivos móveis, como smartphones e tablets |  ALTA |
 |RNF-003| A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome e Microsoft Edge |  ALTA |
 |RNF-004| A aplicação deve garantir um carregamento rápido das imagens, mesmo em conexões de internet mais lentas | MÉDIA | 
+|RNF-005| A aplicação deve ter uma interface simples que permita aos usuários encontrar facilmente as informações desejadas. | ALTA |
 
 
 

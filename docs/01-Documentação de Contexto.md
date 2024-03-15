@@ -1,5 +1,6 @@
 # Introdução
 
+A procura por um estilo de vida mais saudável tem aumentado nos últimos anos, o que tem levado muitas pessoas a buscarem informações e orientações para iniciar ou aprimorar seus treinos, sendo a musculação a principal escolha. O desafio de iniciar uma jornada fitness, especialmente na musculação, pode ser intimidante para muitos indivíduos. A falta de uma via moderna e integrada para orientar os iniciantes nesse estilo de vida saudável resulta em dificuldades significativas. Esse projeto tem como objetivo auxiliar essas pessoas, trazendo dicas de treino e, também, acompanhando sua evolução.
 
 
 ## Problema
