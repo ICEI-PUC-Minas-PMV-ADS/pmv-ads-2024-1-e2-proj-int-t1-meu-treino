@@ -58,6 +58,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário| Eu como usuário gostaria de encontrar exercícios específicos para cada grupo muscular.| Para poder criar treinos mais específicos. |
 |Usuário| Eu como usuário gostaria de ter acesso a informações sobre cada exercício. | Para direcionar meu treino para meus objetivos. |
 |Usuário| Eu, como usuária, gostaria de encontrar exercícios para o meu tipo de nível de condicionamento físico. | Para alcançar meu objetivo de saúde ideal. |
+|Usuário| Eu, como usuária, gostaria de encontrar exercícios adaptados ao meu objetivo pessoal. | Para alcançar mais resultados. | 
 
 
 ## Requisitos
