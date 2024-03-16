@@ -32,12 +32,14 @@ Descrição:
 <br>
 Natália está buscando um estilo de vida mais saudável e decidiu iniciar a academia, porém não tem muito conhecimento dos exercícios.
 
-
 Nome: Alice <br>
 Idade: 26 anos <br>
 Descrição:
 Alice é uma pessoa sedentária que busca mudar esse estilo de vida iniciando a academia, seu objetivo é encontrar algum aplicativo que a facilite a criar treinos sem que precise recorrer a um personal.
 
+Nome: Adriana <br>
+Idade: 25 anos <br>
+Descrição: Adriana é apaixonada por musculação, mas recentemente percebeu que sua energia e desempenho nos treinos não eram mais os mesmos. Seu objetivo é encontrar algum aplicativo com treinamento adaptados aos seus objetivos e nível de condicionamento físico
 
 
 
@@ -55,6 +57,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário| Eu, como usuário iniciante em musculação, gostaria de ter acesso fácil aos treinos rápidos | Para poder realizá-los em casa. |
 |Usuário| Eu como usuário gostaria de encontrar exercícios específicos para cada grupo muscular.| Para poder criar treinos mais específicos. |
 |Usuário| Eu como usuário gostaria de ter acesso a informações sobre cada exercício. | Para direcionar meu treino para meus objetivos. |
+|Usuário| Eu, como usuária, gostaria de encontrar exercícios para o meu tipo de nível de condicionamento físico. | Para alcançar meu objetivo de saúde ideal. |
 
 
 ## Requisitos
