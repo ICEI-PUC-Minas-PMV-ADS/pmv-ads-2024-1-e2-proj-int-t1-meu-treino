@@ -12,6 +12,19 @@ O problema que este projeto visa abordar é a escassez  de uma via moderna que i
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
+
+## Proposta de solução centrada nos usuários 
+Nosso site de musculação é mais do que apenas um destino online, ele é um parceiro dedicado em sua jornada fitness para que consiga atingir seus objetivos de musculação de forma eficaz, segura e inspiradora. Aqui está o que oferecemos:
+
+• Personalização Total: Criamos uma experiência única para cada usuário, fornecendo treinos e dicas personalizadas com base em seus objetivos, nível de condicionamento físico e preferências individuais.<br>
+
+• Conteúdo Inspirador: Oferecemos uma variedade de conteúdo educativo, motivacional e cientificamente embasado para mantê-lo informado, motivado e focado em seus objetivos fitness.<br>
+
+• Ferramentas de Acompanhamento Inteligente: Acompanhe seu progresso, registre seus treinos e receba instruções de execução e dicas de forma correta para garantir que você esteja no caminho certo para o sucesso. <br>
+
+• Facilidade de Uso: Nosso design intuitivo e responsivo torna a navegação pelo site uma experiência simples e agradável em qualquer dispositivo, em qualquer lugar e a qualquer momento. <br>
+
+
 ## Objetivos
 
 O site tem como objetivo fornecer aos usuários informações relevantes a respeito de exercícios feitos na academia, de modo a auxiliar qualquer pessoa que esteja começando ou queira aperfeiçoar seus treinos. Além disso, é possível acompanhar sua evolução, podendo registrar seu peso e calcular o IMC.
