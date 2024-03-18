@@ -41,6 +41,10 @@ Nome: Adriana <br>
 Idade: 25 anos <br>
 Descrição: Adriana é apaixonada por musculação, mas recentemente percebeu que sua energia e desempenho nos treinos não eram mais os mesmos. Seu objetivo é encontrar algum aplicativo com treinamento adaptados aos seus objetivos e nível de condicionamento físico
 
+Nome: Maria Augusta <br>
+Idade: 35 anos <br>
+Descrição: Sempre colocou as necessidades de sua família em primeiro lugar, mas recentemente percebeu que precisa dedicar mais tempo e atenção à sua própria saúde e bem-estar.
+
 
 
 ## Histórias de Usuários
@@ -59,11 +63,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário| Eu como usuário gostaria de ter acesso a informações sobre cada exercício. | Para direcionar meu treino para meus objetivos. |
 |Usuário| Eu, como usuária, gostaria de encontrar exercícios para o meu tipo de nível de condicionamento físico. | Para alcançar meu objetivo de saúde ideal. |
 |Usuário| Eu, como usuária, gostaria de encontrar exercícios adaptados ao meu objetivo pessoal. | Para alcançar mais resultados. | 
+Usuário| Eu, como usuária, quero  encontrar treinos curtos e eficazes que possa fazer para me manter ativa e saudável. | 
+Usuário| Eu, como usuária, preciso adaptar os exercícios à minha agenda, para garantir que estou fazendo escolhas realistas e sustentáveis em relação ao meu programa de exercícios.  | 
 
 
 ## Requisitos
-
-
 
 ### Requisitos Funcionais
 
@@ -75,6 +79,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-004| Apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração. | ALTA  |
 |RF-005| Capacidade de pesquisar exercícios por nome, grupo muscular ou equipamento necessário. | MÉDIA| 
 |RF-006| A administração deve ter a capacidade de adicionar, editar ou remover exercícios. | ALTA|
+|RF-007| Deve ter um painel de administração  | ALTA|
+|RF-008| Deve ter uma avaliação para cada exercício  | ALTA|
+|RF-009| A aplicação deve permitir ao usuário calcular seu IMC  | ALTA|
+|RF-010| A aplicação deve permitir ao usuário registrar seu peso e acompanhar seu progresso  | ALTA|
 
 ### Requisitos não Funcionais
 
@@ -85,8 +93,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-003| A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome e Microsoft Edge |  ALTA |
 |RNF-004| A aplicação deve garantir um carregamento rápido das imagens, mesmo em conexões de internet mais lentas | MÉDIA | 
 |RNF-005| A aplicação deve ter uma interface simples que permita aos usuários encontrar facilmente as informações desejadas. | ALTA |
-
-
+|RNF-006| Atender aos padrões MVC | ALTA |
 
 ## Restrições
 
