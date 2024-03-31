@@ -72,18 +72,23 @@ As tarefas são etiquetadas por prioridade no qual está representado abaixo
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+**Editor de Código:**
+- Visual studio - O Visual Studio é uma plataforma de desenvolvimento integrado (IDE) criada pela Microsoft. Destinado a desenvolvedores de software, oferece um conjunto abrangente de ferramentas para escrever, depurar e testar código em várias linguagens de programação, destacando-se o C#.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+**Ferramentas de Comunicação**
+- Teams e Whatsapp - Utilizado para reuniões semanais com o grupo e também com a nossa orientadora.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+**Ferramenta de planejamento**
+- Trello - Ferramenta utilizada para gerenciar o projeto organizando e separando as tarefas. 
+
+**Ferramenta de desenho de tela (_wireframing_)**
+- Figma - É uma ferramenta que auxilia na protipagem do projeto, utilizada principalmente para fazer layouts de aplicativos e sites.
+
+**Ferramenta para criação dos diagramas**
+- Lucidchart - É uma ferramenta que auxilia na criação dos diagramas.
+  
+O editor de código escolhido foi o Visual Studio porque ele possui uma integração com o
+sistema de versão. As ferramentas de comunicação utilizadas são essenciais para ter uma melhor interação entre os desnvolvedores. A ferramenta de
+planejamento escolhida traz uma organização das tarefas a serem entregues. Utilizamos o Lucidchart que facilita na criação dos diagramas,
+ferramenta de fácil uso e de segrança. Por fim, para o desenho de telas utilizamos o Figma, uma ferramenta completa e fácil de utilizar.
+
