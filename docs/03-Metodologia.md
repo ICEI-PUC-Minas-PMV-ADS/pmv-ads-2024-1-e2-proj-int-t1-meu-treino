@@ -1,7 +1,7 @@
 
 # Metodologia
 
-A metodologia de trabalho utilizada pela equipe é a ferramenta Scrum, cujo é um framework com estrutura flexível e adaptável, que exige reuniões regulares, promovendo a colaboração próxima entre os membros da equipe, a fim de identificar problemas de forma mais rápida e tomar medidas corretivas, dessa forma, o Scrum permite que a equipe promova o autogerenciamento para solucionar problemas complexos de maneira rápida e eficiente.
+A metodologia de trabalho utilizada pela equipe é a ferramenta Scrum, cujo é um framework com estrutura flexível e adaptável, que exige reuniões regulares, promovendo a colaboração próxima entre os membros da equipe, a fim de identificar problemas de forma mais rápida e tomar medidas corretivas, dessa forma, o Scrum permite que a equipe promova o autogerenciamento para solucionar problemas complexos de maneira rápida e eficiente.<br>
 As reuniões da equipe ocorrem pelo Teams semanalmente, e comunicação ocorre pelo grupo no Whatsapp.
 
 ## Controle de Versão
