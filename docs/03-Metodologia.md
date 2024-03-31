@@ -1,9 +1,8 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia de trabalho utilizada pela equipe é a ferramenta Scrum, cujo é um framework com estrutura flexível e adaptável, que exige reuniões regulares, promovendo a colaboração próxima entre os membros da equipe, a fim de identificar problemas de forma mais rápida e tomar medidas corretivas, dessa forma, o Scrum permite que a equipe promova o autogerenciamento para solucionar problemas complexos de maneira rápida e eficiente.
+As reuniões da equipe ocorrem pelo Teams semanalmente, e comunicação ocorre pelo grupo no Whatsapp.
 
 ## Controle de Versão
 
