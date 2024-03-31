@@ -58,13 +58,12 @@ Devenvovedores: Lucas Gonçalves de Souza Silva, Natália Romero Soltau, Paula C
     O quadro Kanban do grupo está disponivel atraves do link do <a href="https://trello.com/b/ZNhswrMS/meu-treino">Trello</a>
 
     ![Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Kanban.JPG)
-
     Figura X - Tela do kanban utilizada pelo grupo
 
 
-    As tarefas são etiquetadas por prioridade no qual está representado abaixo
+As tarefas são etiquetadas por prioridade no qual está representado abaixo
 
-    ![recurso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/recurso.JPG)
+![recurso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/recurso.JPG)
 
 
 
