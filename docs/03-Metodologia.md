@@ -54,7 +54,11 @@ Scrum máster: Jose Vitor da Silva Souza
 <br>
 Devenvovedores: Lucas Gonçalves de Souza Silva, Natália Romero Soltau, Paula Carina dos Santos
 
-### Processo
+### `Product Owner` 
+
+Como Product Owner (PO) neste projeto, minha função foi garantir que o desenvolvimento do projeto alinhasse as necessidades dos usuários finais e aos objetivos do negócio. Atuei como a principal ponte entre a equipe de desenvolvimento e os stakeholders, garantindo a entrega de um produto de alta qualidade e valor. Minha atuação focou em maximizar o valor entregue ao usuário final, crucial para o sucesso do projeto e a satisfação dos usuários.
+
+### `Product Backlog`
 
 * Backlog: Tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades no decorrer do projeto devem ser incorporadas a lista.
 * To Do: Este quadro representa o Sprint Backlog. Sprint das coisas atuais que temos que fazer
