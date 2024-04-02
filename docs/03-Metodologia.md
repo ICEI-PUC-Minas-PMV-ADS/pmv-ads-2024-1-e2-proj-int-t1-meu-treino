@@ -26,6 +26,13 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
+  Práticas de Gerenciamento
+  
+- Merges: Realizados via pull requests para revisão prévia. <br>
+- Commits: Devem ser claros e relacionados a issues específicas. <br>
+- Tags: Usadas para marcar releases na branch main. <br>
+- Issues: Organizadas por etiquetas para facilitar a priorização. <br>
+
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
 > **Links Úteis**:
