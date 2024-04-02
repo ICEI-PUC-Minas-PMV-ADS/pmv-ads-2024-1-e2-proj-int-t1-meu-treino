@@ -26,14 +26,14 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-  Práticas de Gerenciamento
+Práticas de Gerenciamento
   
-- Merges: Realizados via pull requests para revisão prévia. <br>
-- Commits: Devem ser claros e relacionados a issues específicas. <br>
-- Tags: Usadas para marcar releases na branch main. <br>
-- Issues: Organizadas por etiquetas para facilitar a priorização. <br>
+- `Merges`: Realizados via pull requests para revisão prévia. 
+- `Commits`: Devem ser claros e relacionados a issues específicas. 
+- `Tags`: Usadas para marcar releases na branch main. 
+- `Issues`: Organizadas por etiquetas para facilitar a priorização. 
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+A configuração e gerência do projeto no Git/GitHub, em conjunto com a metodologia Scrum, estabelece uma base sólida para desenvolver, testar e lançar software de forma eficaz e colaborativa. A inclusão da branch main garante que a versão mais estável e revisada esteja sempre disponível, otimizando o fluxo de trabalho e a qualidade do produto final.
 
 > **Links Úteis**:
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
