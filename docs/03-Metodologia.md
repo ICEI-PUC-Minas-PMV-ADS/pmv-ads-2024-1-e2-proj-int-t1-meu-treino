@@ -35,12 +35,6 @@ Práticas de Gerenciamento
 
 A configuração e gerência do projeto no Git/GitHub, em conjunto com a metodologia Scrum, estabelece uma base sólida para desenvolver, testar e lançar software de forma eficaz e colaborativa. A inclusão da branch main garante que a versão mais estável e revisada esteja sempre disponível, otimizando o fluxo de trabalho e a qualidade do produto final.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
@@ -48,11 +42,9 @@ A configuração e gerência do projeto no Git/GitHub, em conjunto com a metodol
 
 Project ower: Adriana Pereira Nascimento
 <br>
-Product backlog: Douglas Rodrigues Araujo
-<br>
 Scrum máster: Jose Vitor da Silva Souza
 <br>
-Devenvovedores: Lucas Gonçalves de Souza Silva, Natália Romero Soltau, Paula Carina dos Santos
+Devenvovedores: Douglas Rodrigues Araujo, Lucas Gonçalves de Souza Silva, Natália Romero Soltau, Paula Carina dos Santos
 
 ### `Product Owner` 
 

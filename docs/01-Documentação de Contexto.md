@@ -7,11 +7,6 @@ A procura por um estilo de vida mais saudável tem aumentado nos últimos anos, 
 
 O problema que este projeto visa abordar é a escassez  de uma via moderna que integre a musculação para os usuários que estão iniciando esse estilo de vida saudável. Muitos deles acabam enfrentando desafios ao tentar conciliar os exercícios físicos, resultando em dificuldades. E com a ausência de uma ferramenta que consolida esses aspectos essenciais da saúde acaba prejudicando a eficácia do condicionamento físico, deixando os usuários sem uma base sólida para alcançar seus objetivos.
 
-> **Links Úteis REMOVER DEPOIS**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 
 ## Proposta de solução centrada nos usuários 
 Nosso site de musculação é mais do que apenas um destino online, ele é um parceiro dedicado em sua jornada fitness para que consiga atingir seus objetivos de musculação de forma eficaz, segura e inspiradora. Aqui está o que oferecemos:
