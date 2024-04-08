@@ -1,25 +1,21 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
-
-Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-06 – Adicionar, editar ou excluir exercicios** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+|	Requisito Associado 	| RF-006 -  O Administrador deve ser capaz de adicionar, editar ou excluir exercícios da aplicação |
+| Objetivo do Teste 	| - Verificar se o Administrador consegue adicionar, editar ou excluir exercícios. |
+| Passos 	|  - Acessar a aplicação como administrador. <br> - Clicar em "Exercícios". <br> - Adicionar, editar ou excluir exercícios. <br> - Clicar em "Salvar". |
+|Critério de Êxito | - A mudança foi realizado com sucesso. |
+| | | |
+| **Caso de Teste** 	| **CT-08 – Efetuar login**	|
+|Requisito Associado | RF-008	- A aplicação deve permitir ao usuário registrar seu peso e acompanhar seu progresso. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue registrar seu peso e acompanhar o progresso. |
+| Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Clicar no botão "Editar perfil". <br> - Preencher o campo de "peso corporal". <br> - Clicar em "Salvar". <br> - Clicar em "Visualizar historico de peso". <br> |
+|Critério de Êxito | - O historico do seu peso corporal é: |
+| | | |
+
 
  
 > **Links Úteis**:
