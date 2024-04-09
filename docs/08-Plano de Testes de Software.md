@@ -1,7 +1,13 @@
 # Plano de Testes de Software
 
-| **Caso de Teste** 	| **CT-02 – Calcular IMC** 	|
+| **Caso de Teste** 	| **CT-01 – Fazer login** 	|
 |:---:	|:---:	|
+|	Requisito Associado 	| RF-001 -  A aplicação devera fazer autenticação e autorização dos usuários |
+| Objetivo do Teste 	| - Verificar e conceder autorização para a entrada daquele usuário no site. |
+| Passos 	|  - Acessar a aplicação . <br> - Acessar a tela de login. <br> - Preencher os campos email e senha <br> - Clicar em login.  |
+|Critério de Êxito | - Login efetuado com sucesso. |
+| | | |
+| **Caso de Teste** 	| **CT-02 – Calcular IMC** 	|
 |	Requisito Associado 	| RF-002 -  A aplicação deve permitir ao usuário calcular seu IMC |
 | Objetivo do Teste 	| - Verificar se o Usuário consegue inserir seu peso e altura e calcular seu IMC corretamente |
 | Passos 	|  - Acessar a aplicação . <br> - Clicar em "Calcular IMC". <br> - Inserir peso e altura em seus respectivos campos. <br> - Clicar em "Calcular".  |
@@ -13,7 +19,12 @@
 | Passos 	|  - Acessar a aplicação. <br> - Clicar em algum exercício de sua preferência. <br> - Clicar no ícone de coração. <br> - Clicar em "Exercícios favoritos" na navbar.<br> - Verificar se o exercício se encontra lá.  |
 |Critério de Êxito | - O exercício foi adicionado aos seus favoritos. |
 | | | |
-
+| **Caso de Teste** 	| **CT-04 – Visualizar a lista de exercícios** 	|
+|	Requisito Associado 	| RF-004 -  Apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração. |
+| Objetivo do Teste 	| - Visualizar os exercícios com as suas informações. |
+| Passos 	|  - Acessar a aplicação. <br> - Acessar a página Home <br>  |
+|Critério de Êxito | - Visualizar os exercícios seguido de nome, descrição e imagem. |
+| | | |
 | **Caso de Teste** 	| **CT-06 – Adicionar, editar ou excluir exercicios** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-006 -  O Administrador deve ser capaz de adicionar, editar ou excluir exercícios da aplicação |
