@@ -4,15 +4,15 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de Classes
 
-> - [Diagramas de Classes - ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Classe_UML.JPG)
+> - [Diagramas de Classes - ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Classe_UML.jpeg)
 
 ## Modelo ER (Projeto Conceitual)
 
-> - [Modelo Conceitual -](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Modelo_Conceitual.JPG)
+> - [Modelo Conceitual -](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Modelo_Conceitual.jpeg)
 
 ## Projeto da Base de Dados
 
-> - [Modelo Conceitual -](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Modelo_ER.JPG)
+> - [Modelo Conceitual -](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Modelo_ER.jpeg)
 
 ## Tecnologias Utilizadas
 
