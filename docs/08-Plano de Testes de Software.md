@@ -1,11 +1,11 @@
 # Plano de Testes de Software
 
-| **Caso de Teste** 	| **CT-01 – Fazer login** 	|
+| **Caso de Teste** 	| **CT-01 – Avaliar Exercícios** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-001 -  A aplicação devera fazer autenticação e autorização dos usuários |
-| Objetivo do Teste 	| - Verificar e conceder autorização para a entrada daquele usuário no site. |
-| Passos 	|  - Acessar a aplicação . <br> - Acessar a tela de login. <br> - Preencher os campos email e senha <br> - Clicar em login.  |
-|Critério de Êxito | - Login efetuado com sucesso. |
+|	Requisito Associado 	| RF-001 -  Deve ter uma avaliação para cada exercício |
+| Objetivo do Teste 	| - Verificar se é possivel avaliar o exercício com estrelas. |
+| Passos 	|  - Acessar a aplicação . <br> - Clicar em Meus Treinos. <br> - Avaliar o exercício em até 5 entrelas.  <br>
+|Critério de Êxito | - Avaliar corretamente de acordo com as estrelas selecionadas. |
 | | | |
 | **Caso de Teste** 	| **CT-02 – Calcular IMC** 	|
 |	Requisito Associado 	| RF-002 -  A aplicação deve permitir ao usuário calcular seu IMC |
