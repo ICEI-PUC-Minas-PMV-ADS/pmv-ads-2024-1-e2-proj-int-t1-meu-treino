@@ -7,7 +7,13 @@
 | Passos 	|  - Acessar a aplicação . <br> - Clicar em "Calcular IMC". <br> - Inserir peso e altura em seus respectivos campos. <br> - Clicar em "Calcular".  |
 |Critério de Êxito | - O IMC foi calculado corretamente. |
 | | | |
- 
+| **Caso de Teste** 	| **CT-03 – Incluir exercícios ao favorito** 	|
+|	Requisito Associado 	| RF-003 -  A aplicação deve permitir incluir exercícios ao favorito |
+| Objetivo do Teste 	| - Verificar se o usuário consegue incluir os exercícios e atividades aos favoritos |
+| Passos 	|  - Acessar a aplicação. <br> - Clicar em algum exercício de sua preferência. <br> - Clicar no ícone de coração. <br> - Clicar em "Exercícios favoritos" na navbar.<br> - Verificar se o exercício se encontra lá.  |
+|Critério de Êxito | - O exercício foi adicionado aos seus favoritos. |
+| | | |
+
 | **Caso de Teste** 	| **CT-06 – Adicionar, editar ou excluir exercicios** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-006 -  O Administrador deve ser capaz de adicionar, editar ou excluir exercícios da aplicação |
