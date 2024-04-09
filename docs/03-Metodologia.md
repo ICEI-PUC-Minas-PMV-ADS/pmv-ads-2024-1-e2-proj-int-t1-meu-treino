@@ -14,24 +14,13 @@ foi utilizado para hospedagem do repositório.
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `feat`: destinada a novas atualizações no projeto
 
 Práticas de Gerenciamento
   
 - `Merges`: Realizados via pull requests para revisão prévia. 
 - `Commits`: Devem ser claros e relacionados a issues específicas. 
-- `Tags`: Usadas para marcar releases na branch main. 
-- `Issues`: Organizadas por etiquetas para facilitar a priorização. 
 
 A configuração e gerência do projeto no Git/GitHub, em conjunto com a metodologia Scrum, estabelece uma base sólida para desenvolver, testar e lançar software de forma eficaz e colaborativa. A inclusão da branch main garante que a versão mais estável e revisada esteja sempre disponível, otimizando o fluxo de trabalho e a qualidade do produto final.
 
