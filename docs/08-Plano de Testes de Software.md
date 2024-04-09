@@ -1,6 +1,12 @@
 # Plano de Testes de Software
 
-
+| **Caso de Teste** 	| **CT-02 – Calcular IMC** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-002 -  A aplicação deve permitir ao usuário calcular seu IMC |
+| Objetivo do Teste 	| - Verificar se o Usuário consegue inserir seu peso e altura e calcular seu IMC corretamente |
+| Passos 	|  - Acessar a aplicação . <br> - Clicar em "Calcular IMC". <br> - Inserir peso e altura em seus respectivos campos. <br> - Clicar em "Calcular".  |
+|Critério de Êxito | - O IMC foi calculado corretamente. |
+| | | |
  
 | **Caso de Teste** 	| **CT-06 – Adicionar, editar ou excluir exercicios** 	|
 |:---:	|:---:	|

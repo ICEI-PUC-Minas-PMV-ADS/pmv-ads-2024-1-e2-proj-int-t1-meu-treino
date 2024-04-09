@@ -20,15 +20,35 @@ O diagrama de fluxo na figura 1, criado na ferramenta Figma, ilustra a sequênci
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+### Tela principal
+Na tela principal é onde o usuária irá encontrar recomendações de exercicos, a lista de exercios, um menu lateral para navegar nas outras telas e uma barra de pesquisa, para encontrar exercicos que o usuário queira.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+![Wireframe Tela Inicial](img/Tela_Inicio.png)
+
+### Tela de log in
+NA tela de log in o usuário poderá entrar em sua conta ou, caso ainda não tenha, poderá se cadastrar.
+
+![Wireframe Tela Log in](img/Tela_Login.png)
+
+### Tela de cadastro
+Na tela de cadastro o usuário poderá fazer seu cadastro, caso ainda não tenha.
+
+![Wireframe Tela Cadastro](img/Tela_Cadastro.png)
+
+### Tela de exercícios favoritos
+Na tela de exercícios favoritos o usuário poderá acessar seus exercícios adicionados ao favorito.
+
+![Wireframe Tela Favoritos](img/Tela_Favoritos.png)
+
+### Tela de calculo de IMC
+Na tela de calculo de IMC o usuário poderá inserir seu peso e sua altura para descobrir seu IMC.
+
+![Wireframe Tela IMC](img/Tela_IMC.png)
+
+### Tela de perfil
+Na tela do perfil o usuário poderá acessar seu perfil.
+
+![Wireframe Tela Perfil](img/Tela_Perfil.png)
+
+
+
