@@ -65,7 +65,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário| Eu, como usuária, gostaria de encontrar exercícios adaptados ao meu objetivo pessoal. | Para alcançar mais resultados. | 
 Usuário| Eu, como usuária, quero  encontrar treinos curtos e eficazes que possa fazer  | para me manter ativa e saudável.
 Usuário| Eu, como usuária, preciso adaptar os exercícios à minha agenda. | para garantir que estou fazendo escolhas realistas e sustentáveis em relação ao meu programa de exercícios.
-|
+
 
 
 ## Requisitos
