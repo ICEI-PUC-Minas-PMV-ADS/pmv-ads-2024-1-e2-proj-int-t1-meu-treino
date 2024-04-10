@@ -63,8 +63,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário| Eu como usuário gostaria de ter acesso a informações sobre cada exercício. | Para direcionar meu treino para meus objetivos. |
 |Usuário| Eu, como usuária, gostaria de encontrar exercícios para o meu tipo de nível de condicionamento físico. | Para alcançar meu objetivo de saúde ideal. |
 |Usuário| Eu, como usuária, gostaria de encontrar exercícios adaptados ao meu objetivo pessoal. | Para alcançar mais resultados. | 
-Usuário| Eu, como usuária, quero  encontrar treinos curtos e eficazes que possa fazer para me manter ativa e saudável. | 
-Usuário| Eu, como usuária, preciso adaptar os exercícios à minha agenda, para garantir que estou fazendo escolhas realistas e sustentáveis em relação ao meu programa de exercícios.  | 
+Usuário| Eu, como usuária, quero  encontrar treinos curtos e eficazes que possa fazer  | para me manter ativa e saudável.
+Usuário| Eu, como usuária, preciso adaptar os exercícios à minha agenda. | para garantir que estou fazendo escolhas realistas e sustentáveis em relação ao meu programa de exercícios.
+|
 
 
 ## Requisitos
@@ -73,25 +74,27 @@ Usuário| Eu, como usuária, preciso adaptar os exercícios à minha agenda, par
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Deve ter uma avaliação para cada exercício  | BAIXA |
-|RF-002| A aplicação deve permitir ao usuário calcular seu IMC | ALTA  |
-|RF-003| A aplicação deve permitir incluir exercícios ao favorito | MÉDIA  |
-|RF-004| Apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração. | ALTA  |
-|RF-005| Capacidade de pesquisar exercícios por nome, grupo muscular ou equipamento necessário. | MÉDIA| 
+|RF-001| A aplicação deve ter uma avaliação para cada exercício. | BAIXA |
+|RF-002| A aplicação deve permitir ao usuário calcular seu IMC. | ALTA  |
+|RF-003| A aplicação deve permitir incluir exercícios ao favorito. | MÉDIA  |
+|RF-004| A aplicação deve apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração. | ALTA  |
+|RF-005| A aplicação deve ter a capacidade de pesquisar exercícios por nome, grupo muscular ou equipamento necessário. | MÉDIA| 
 |RF-006| A administração deve ter a capacidade de adicionar, editar ou remover exercícios. | ALTA|
-|RF-007| Deve ter um painel de administração  | ALTA|
-|RF-008| A aplicação deve permitir ao usuário registrar seu peso e acompanhar seu progresso  | ALTA|
+|RF-007| A aplicação deve ter um painel de administração.  | ALTA|
+|RF-008| A aplicação deve permitir ao usuário registrar seu peso.| ALTA|
+|RF-009| A aplicação deve permitir ao usuário acompanhar o progresso de seu peso.  | ALTA|
+|RF-010| A aplicação deve permitir ao usuário editar seu perfil. | BAIXA|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | ALTA | 
-|RNF-002| A aplicação deve ser acessível e fácil de usar em dispositivos móveis, como smartphones e tablets |  ALTA |
-|RNF-003| A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome e Microsoft Edge |  ALTA |
-|RNF-004| A aplicação deve garantir um carregamento rápido das imagens, mesmo em conexões de internet mais lentas | MÉDIA | 
+|RNF-001| A aplicação deve ser responsiva. | ALTA | 
+|RNF-002| A aplicação deve ser acessível e fácil de usar em dispositivos móveis, como smartphones e tablets. |  ALTA |
+|RNF-003| A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome e Microsoft Edge. |  ALTA |
+|RNF-004| A aplicação deve garantir um carregamento rápido das imagens, mesmo em conexões de internet mais lentas. | MÉDIA | 
 |RNF-005| A aplicação deve ter uma interface simples que permita aos usuários encontrar facilmente as informações desejadas. | ALTA |
-|RNF-006| Atender aos padrões MVC | ALTA |
+|RNF-006| Atender aos padrões MVC. | ALTA |
 
 ## Restrições
 

@@ -26,7 +26,6 @@
 |Critério de Êxito | - Visualizar os exercícios seguido de nome, descrição e imagem. |
 | | | |
 | **Caso de Teste** 	| **CT-06 – Adicionar, editar ou excluir exercicios** 	|
-|:---:	|:---:	|
 |	Requisito Associado 	| RF-006 -  O Administrador deve ser capaz de adicionar, editar ou excluir exercícios da aplicação |
 | Objetivo do Teste 	| - Verificar se o Administrador consegue adicionar, editar ou excluir exercícios. |
 | Passos 	|  - Acessar a aplicação como administrador. <br> - Clicar em "Exercícios". <br> - Adicionar, editar ou excluir exercícios. <br> - Clicar em "Salvar". |
