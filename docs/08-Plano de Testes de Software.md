@@ -31,19 +31,18 @@
 | Passos 	|  - Acessar a aplicação como administrador. <br> - Clicar em "Exercícios". <br> - Adicionar, editar ou excluir exercícios. <br> - Clicar em "Salvar". |
 |Critério de Êxito | - A mudança foi realizado com sucesso. |
 | | | |
-| **Caso de Teste** 	| **CT-08 – Efetuar login**	|
-|Requisito Associado | RF-008	- A aplicação deve permitir ao usuário registrar seu peso e acompanhar seu progresso. |
+| **Caso de Teste** 	| **CT-08 – Registro de peso**	|
+|Requisito Associado | RF-008	- A aplicação deve permitir ao usuário registrar seu peso. |
 | Objetivo do Teste 	| - Verificar se o usuário consegue registrar seu peso e acompanhar o progresso. |
-| Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Clicar no botão "Editar perfil". <br> - Preencher o campo de "peso corporal". <br> - Clicar em "Salvar". <br> - Clicar em "Visualizar historico de peso". <br> |
-|Critério de Êxito | - O historico do seu peso corporal é: |
+| Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Clicar no botão "Editar perfil". <br> - Preencher o campo de "peso corporal". <br> - Clicar em "Salvar". <br> |
+|Critério de Êxito | - Peso salvo. |
+| | | |
+| **Caso de Teste** 	| **CT-08 – Histórico de peso**	|
+|Requisito Associado | RF-008	- A aplicação deve permitir ao usuário acompanhar o progresso de seu peso.. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue acompanhar o progresso. |
+| Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Visualizar o histórico de peso anteriormente registrados|
+|Critério de Êxito | - Visualizar o histórico de peso. |
 | | | |
 
-
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+

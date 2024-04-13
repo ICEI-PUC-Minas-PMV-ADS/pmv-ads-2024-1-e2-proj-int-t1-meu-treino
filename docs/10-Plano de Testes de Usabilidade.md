@@ -2,7 +2,15 @@
 
 O plano de testes de usabilidade dos requisitos nao-funcionais estão representados abaixo:
 
-| **Caso de Teste**    | **CT-XX(mudar com a ordem da numeraçao) - Compatibilidade** |
+| **Caso de Teste**    | **CT-01 - Compatibilidade** |
+|:---: |:---: |
+|Requisito Associado | RNF - 01 - A aplicação deve ser responsiva.
+|Objetivo do teste | Verificar se a aplicação é responsiva.
+|Passos | - Acessar a aplicação em um computador. <br> - Acessar a aplicação em um dispositivo móvel. <br> 
+|Critério de Êxito | O sistema é responsivo em ambos dispositivos.
+|
+
+| **Caso de Teste**    | **CT-03 - Compatibilidade** |
 |:---: |:---: |
 |Requisito Associado | RNF - 03 - A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome e Microsoft Edge.
 |Objetivo do teste | Verificar se a aplicação é compativel com as versões mais recentes do Google Chrome e Microsoft Edge.
