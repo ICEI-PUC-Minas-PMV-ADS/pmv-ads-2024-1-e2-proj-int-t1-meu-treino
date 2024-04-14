@@ -37,12 +37,15 @@
 | Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Clicar no botão "Editar perfil". <br> - Preencher o campo de "peso corporal". <br> - Clicar em "Salvar". <br> |
 |Critério de Êxito | - Peso salvo. |
 | | | |
-| **Caso de Teste** 	| **CT-08 – Histórico de peso**	|
-|Requisito Associado | RF-008	- A aplicação deve permitir ao usuário acompanhar o progresso de seu peso.. |
+| **Caso de Teste** 	| **CT-09 – Histórico de peso**	|
+|Requisito Associado | RF-009	- A aplicação deve permitir ao usuário acompanhar o progresso de seu peso. |
 | Objetivo do Teste 	| - Verificar se o usuário consegue acompanhar o progresso. |
 | Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Visualizar o histórico de peso anteriormente registrados|
 |Critério de Êxito | - Visualizar o histórico de peso. |
 | | | |
-
- 
-
+| **Caso de Teste** 	| **CT-10 – Editar perfil do usuário**	|
+|Requisito Associado | RF-010	- A aplicação deve permitir ao usuário editar seu perfil. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue editar seu perfil. |
+| Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Editar o perfil. <br> - Salvar as alterações.|
+|Critério de Êxito | - Visualizar o perfil atualização. |
+| | | |
