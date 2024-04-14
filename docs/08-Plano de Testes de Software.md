@@ -25,6 +25,12 @@
 | Passos 	|  - Acessar a aplicação. <br> - Acessar a página Home <br>  |
 |Critério de Êxito | - Visualizar os exercícios seguido de nome, descrição e imagem. |
 | | | |
+| **Caso de Teste** 	| **CT-05 – Pesquisar por nome, grupos musculares ou equipamentos necessários** 	|
+|	Requisito Associado 	| RF-005 -  A aplicação deve permitir ao usuário pesquisar uma lista de exercícios por nome, grupo muscular ou equipamentos. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue ter uma pesquisa ampla. |
+| Passos 	|  - Acessar a aplicação. <br> - Acessar a página Home <br> - Clicar no botão "Pesquisar". |
+|Critério de Êxito | - Pesquisa realizada com sucesso . |
+| | | |
 | **Caso de Teste** 	| **CT-06 – Adicionar, editar ou excluir exercicios** 	|
 |	Requisito Associado 	| RF-006 -  O Administrador deve ser capaz de adicionar, editar ou excluir exercícios da aplicação |
 | Objetivo do Teste 	| - Verificar se o Administrador consegue adicionar, editar ou excluir exercícios. |
