@@ -37,9 +37,15 @@
 | Passos 	|  - Acessar a aplicação como administrador. <br> - Clicar em "Exercícios". <br> - Adicionar, editar ou excluir exercícios. <br> - Clicar em "Salvar". |
 |Critério de Êxito | - A mudança foi realizado com sucesso. |
 | | | |
+| **Caso de Teste** 	| **CT-07 – Painel de Administração** 	|
+|	Requisito Associado 	| RF-007 -  O usuário deve ter acesso ao painel de administração |
+| Objetivo do Teste 	| - Verificar se o usuário consegue ter acesso ao painel de administração. |
+| Passos 	|  - Acessar o aplicativo como administrador. <br> - Clicar em "Perfil". <br> - Clique em "painel de administração". |
+|Critério de Êxito | - Painel acessado com sucesso. |
+| | | |
 | **Caso de Teste** 	| **CT-08 – Registro de peso**	|
-|Requisito Associado | RF-008	- A aplicação deve permitir ao usuário registrar seu peso. |
-| Objetivo do Teste 	| - Verificar se o usuário consegue registrar seu peso e acompanhar o progresso. |
+|Requisito Associado | RF-008	- A aplicação deve permitir que o usuário gerencie todo o conteúdo. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue adicionar, editar e excluir postagens, páginas e produtos. |
 | Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Clicar no botão "Editar perfil". <br> - Preencher o campo de "peso corporal". <br> - Clicar em "Salvar". <br> |
 |Critério de Êxito | - Peso salvo. |
 | | | |
