@@ -37,9 +37,11 @@ O plano de testes de usabilidade dos requisitos nao-funcionais estão representa
 |Objetivo do teste | -Verificar se a aplicação é simples de se usar.
 |Passos | - Acessar a aplicação através de um navegador. <br> - Visualizar e clicar nos botões de acordo com as informações desejadas a serem encontradas. <br> 
 |Critério de Êxito | O sistema é simples de se usar.
-|
+
 | **Caso de Teste**    | **CT-06 - Padrões MVC** |
+|:---: |:---: |
 |Requisito Associado | RNF - 06 - A aplicação deve atender os padrões MVC.
 |Objetivo do teste | -Verificar se a aplicação atende os padrões MVC.
 |Passos | - Acessar a aplicação através de um navegador. <br> - Verificar se a estrutura da aplicação segue o padrão MVC, identificando os componentes Model, View e Controller. <br> 
 |Critério de Êxito | A aplicação segue claramente os padrões MVC, com separação adequada entre Model, View e Controller.
+
