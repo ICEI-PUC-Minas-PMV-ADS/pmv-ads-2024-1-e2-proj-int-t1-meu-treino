@@ -38,16 +38,16 @@
 |Critério de Êxito | - A mudança foi realizado com sucesso. |
 | | | |
 | **Caso de Teste** 	| **CT-07 – Painel de Administração** 	|
-|	Requisito Associado 	| RF-007 -  O usuário deve ter acesso ao painel de administração |
-| Objetivo do Teste 	| - Verificar se o usuário consegue ter acesso ao painel de administração. |
+|	Requisito Associado 	| RF-007 -  O administrador deve ter acesso ao painel de administração |
+| Objetivo do Teste 	| - Verificar se o administrador consegue ter acesso ao painel de administração. |
 | Passos 	|  - Acessar o aplicativo como administrador. <br> - Clicar em "Perfil". <br> - Clique em "painel de administração". |
 |Critério de Êxito | - Painel acessado com sucesso. |
 | | | |
 | **Caso de Teste** 	| **CT-08 – Registro de peso**	|
-|Requisito Associado | RF-008	- A aplicação deve permitir que o usuário gerencie todo o conteúdo. |
-| Objetivo do Teste 	| - Verificar se o usuário consegue adicionar, editar e excluir postagens, páginas e produtos. |
+|Requisito Associado | RF-008	- A aplicação deve permitir ao usuário registrar o seu peso. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue registrar o seu peso. |
 | Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Clicar no botão "Editar perfil". <br> - Preencher o campo de "peso corporal". <br> - Clicar em "Salvar". <br> |
-|Critério de Êxito | - Peso salvo. |
+|Critério de Êxito | - Peso salvo com sucesso. |
 | | | |
 | **Caso de Teste** 	| **CT-09 – Histórico de peso**	|
 |Requisito Associado | RF-009	- A aplicação deve permitir ao usuário acompanhar o progresso de seu peso. |
@@ -59,5 +59,5 @@
 |Requisito Associado | RF-010	- A aplicação deve permitir ao usuário editar seu perfil. |
 | Objetivo do Teste 	| - Verificar se o usuário consegue editar seu perfil. |
 | Passos 	| - Acessar a aplicação com o login efetuado. <br> - Clicar no botão "Perfil". <br> - Editar o perfil. <br> - Salvar as alterações.|
-|Critério de Êxito | - Visualizar o perfil atualização. |
+|Critério de Êxito | - Visualizar o perfil atualizado. |
 | | | |

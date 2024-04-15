@@ -8,11 +8,11 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Modelo ER (Projeto Conceitual)
 
-> - [Modelo Conceitual -](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Modelo_Conceitual.jpeg)
+> - [Modelo Conceitual -](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Modelo_Conceitual.jpg)
 
 ## Projeto da Base de Dados
 
-> - [Modelo Conceitual -](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Modelo_ER.jpeg)
+> - [Modelo Conceitual -](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Modelo_ER.jpg)
 
 ## Tecnologias Utilizadas
 
