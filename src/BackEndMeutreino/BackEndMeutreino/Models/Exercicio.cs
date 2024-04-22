@@ -27,15 +27,21 @@ namespace BackEndMeutreino.Models
         [Display(Name = "grupoMuscular")]
         public string grupoMuscular { get; set; }
 
-        [Column("imagem")]
-        [Display(Name = "imagem")]
-        public string imagem { get; set; }
 
         [Column("dificuldade")]
         [Display(Name = "dificuldade")]
-        public int dificuldade { get; set; }
+        public Dificuldade dificuldade { get; set; }
 
         public ICollection<Favoritos> Favoritos { get; } = new List<Favoritos>();
         public ICollection<Avaliacao> Avaliacoes { get; } = new List<Avaliacao>();
+
+
+        public enum Dificuldade
+        {
+            ALTA,
+            MÉDIA,
+            BAIXA
+
+        }
     }
 }

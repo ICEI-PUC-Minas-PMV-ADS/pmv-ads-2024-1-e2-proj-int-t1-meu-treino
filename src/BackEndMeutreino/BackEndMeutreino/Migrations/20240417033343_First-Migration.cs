@@ -20,7 +20,6 @@ namespace BackEndMeutreino.Migrations
                     nome = table.Column<string>(type: "text", nullable: false),
                     descricao = table.Column<string>(type: "text", nullable: false),
                     grupoMuscular = table.Column<string>(type: "text", nullable: false),
-                    imagem = table.Column<string>(type: "text", nullable: false),
                     dificuldade = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>

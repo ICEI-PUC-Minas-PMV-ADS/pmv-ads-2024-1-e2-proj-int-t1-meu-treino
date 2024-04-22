@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20240417033343_First-Migration.cs" />
+    <Compile Remove="Migrations\20240417033343_First-Migration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Exercicios\Delete.cshtml" />
+    <Content Remove="Views\Exercicios\Details.cshtml" />
+    <Content Remove="Views\Exercicios\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
       <PrivateAssets>all</PrivateAssets>
