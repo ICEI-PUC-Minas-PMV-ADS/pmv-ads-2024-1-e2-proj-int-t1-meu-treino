@@ -41,5 +41,23 @@ namespace BackEndMeutreino.Controllers
 
             return View(exercicio);
         }
+        // Página de Details
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var exercicio = await _context.Exercicio
+                .FirstOrDefaultAsync(m => m.id == id);
+            if (exercicio == null)
+            {
+                return NotFound();
+            }
+
+            return View(exercicio);
+        }
+
     }
 }
