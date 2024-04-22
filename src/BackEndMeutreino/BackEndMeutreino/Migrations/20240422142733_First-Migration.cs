@@ -10,20 +10,13 @@ namespace BackEndMeutreino.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "imagem",
-                table: "exercicio");
+
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "imagem",
-                table: "exercicio",
-                type: "text",
-                nullable: false,
-                defaultValue: "");
+
         }
     }
 }

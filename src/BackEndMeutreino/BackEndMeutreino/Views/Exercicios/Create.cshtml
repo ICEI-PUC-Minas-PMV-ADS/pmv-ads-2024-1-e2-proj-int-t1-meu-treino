@@ -5,9 +5,9 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Criar novo Exercicio</h1>
+<h1>Criar novo exercicio</h1>
 
-<h4>Exercicios</h4>
+<h4>Exercicio</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -30,18 +30,19 @@
             </div>
             <div class="form-group">
                 <label asp-for="dificuldade" class="control-label"></label>
-                <select asp-for="dificuldade" class="form-control" asp-items="Html.GetEnumSelectList<Dificuldade>()" ></select>
+                <select asp-for="dificuldade" class="form-control"asp-items="Html.GetEnumSelectList<Dificuldade>()" ></select>
                 <span asp-validation-for="dificuldade" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <a asp-action="Index" class="btn btn-info">Voltar</a>
+                 <a asp-action="Index" class="btn btn-info" >Voltar</a>
                 <input type="submit" value="Criar" class="btn btn-success" />
             </div>
         </form>
     </div>
 </div>
 
-
+<div>
+</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

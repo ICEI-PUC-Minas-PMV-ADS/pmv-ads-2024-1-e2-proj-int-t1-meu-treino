@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BackEndMeutreino.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20240422122404_First-Migration")]
+    [Migration("20240422142733_First-Migration")]
     partial class FirstMigration
     {
         /// <inheritdoc />
