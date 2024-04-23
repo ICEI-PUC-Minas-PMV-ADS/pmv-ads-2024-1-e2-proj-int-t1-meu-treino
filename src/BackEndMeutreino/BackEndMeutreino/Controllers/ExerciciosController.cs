@@ -59,5 +59,43 @@ namespace BackEndMeutreino.Controllers
             return View(exercicio);
         }
 
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var dados = await _context.Exercicio.FindAsync(id);
+
+            if (dados == null)
+            {
+                return NotFound();
+            }
+            return View(dados);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, Exercicio exercicio)
+        {
+            if (id != exercicio.id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                _context.Exercicio.Update(exercicio);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            
+            return View(exercicio);
+
+        }
+            
+        }
+
+
     }
-}
+
