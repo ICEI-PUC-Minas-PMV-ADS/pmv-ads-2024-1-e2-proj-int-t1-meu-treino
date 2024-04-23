@@ -4,25 +4,25 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Exercicios</h1>
+<h1>Exercícios</h1>
 
 <p>
-    <a class="btn btn-success" asp-action="Create">Criar novo exercicio</a>
+    <a class="btn btn-success" asp-action="Create">Adicionar novo Exercício</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.nome)
+                Nome
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.descricao)
+                Descrição
+            </th>
+            <th style="padding-right: 100px;">
+                Grupo_Muscular
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.grupoMuscular)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.dificuldade)
+               Dificuldade
             </th>
             <th></th>
         </tr>
@@ -30,16 +30,16 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+                <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.nome)
             </td>
-            <td>
+                <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.descricao)
             </td>
-            <td>
+                <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.grupoMuscular)
             </td>
-            <td>
+            <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.dificuldade)
             </td>
             <td>
