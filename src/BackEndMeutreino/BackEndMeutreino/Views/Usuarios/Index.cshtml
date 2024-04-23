@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Usuarios</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" role="button" asp-controller="Usuarios" asp-action="Create">Adicionar novo contato</a>
 </p>
 <table class="table">
     <thead>
@@ -34,32 +34,35 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.senha)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.role)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.altura)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.peso)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.senha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.role)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.altura)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.peso)
+                </td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a class="btn btn-outline-primary" role="button" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                        <a class="btn btn-outline-secondary" role="button" asp-action="Details" asp-route-id="@item.id">Details</a>
+                        <a class="btn btn-outline-danger" role="button" asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
