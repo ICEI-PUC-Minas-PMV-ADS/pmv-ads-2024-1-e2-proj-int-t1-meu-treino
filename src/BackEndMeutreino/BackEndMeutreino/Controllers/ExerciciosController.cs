@@ -93,8 +93,54 @@ namespace BackEndMeutreino.Controllers
             return View(exercicio);
 
         }
-            
+
+
+
+
+
+        // GET: Exercicios/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var exercicio = await _context.Exercicio
+                .FirstOrDefaultAsync(m => m.id == id);
+            if (exercicio == null)
+            {
+                return NotFound();
+            }
+
+            return View(exercicio);
         }
+
+        // POST: Exercicios/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var exercicio = await _context.Exercicio.FindAsync(id);
+            if (exercicio != null)
+            {
+                _context.Exercicio.Remove(exercicio);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool ExercicioExists(int id)
+        {
+            return _context.Exercicio.Any(e => e.id == id);
+        }
+
+
+
+
+
+    }
 
 
     }
