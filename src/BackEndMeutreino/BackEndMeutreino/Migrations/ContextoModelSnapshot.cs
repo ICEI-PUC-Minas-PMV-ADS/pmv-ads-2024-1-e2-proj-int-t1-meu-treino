@@ -69,6 +69,10 @@ namespace BackEndMeutreino.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("dificuldade");
 
+                    b.Property<string>("imagem")
+                        .HasColumnType("text")
+                        .HasColumnName("imagem");
+
                     b.Property<string>("grupoMuscular")
                         .IsRequired()
                         .HasColumnType("text")

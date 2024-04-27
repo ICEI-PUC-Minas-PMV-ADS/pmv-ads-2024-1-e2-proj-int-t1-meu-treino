@@ -13,13 +13,16 @@
     <thead>
         <tr>
             <th>
+                Imagem
+            </th>
+            <th>
                 Nome
             </th>
             <th>
                 Descrição
             </th>
             <th style="padding-right: 100px;">
-                Grupo_Muscular
+                Grupo Muscular
             </th>
             <th>
                Dificuldade
@@ -30,6 +33,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+                <td class="align-middle">
+                    @Html.DisplayFor(modelItem => item.imagem)
+                </td>
                 <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.nome)
             </td>

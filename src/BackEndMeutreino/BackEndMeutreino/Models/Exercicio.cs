@@ -19,6 +19,10 @@ namespace BackEndMeutreino.Models
         [Display(Name = "nome")]
         public string nome { get; set; }
 
+        [Column("imagem")]
+        [Display(Name = "imagem")]
+        public string imagem { get; set; }
+
         [Column("descricao")]
         [Display(Name = "descricao")]
         public string descricao { get; set; }
