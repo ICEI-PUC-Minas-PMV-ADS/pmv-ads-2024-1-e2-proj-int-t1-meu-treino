@@ -1,0 +1,85 @@
+﻿@model BackEndMeutreino.Models.Exercicio
+
+@{
+    ViewBag.Title = "Detalhes do Exercício";
+}
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div>
+    <h4>Nome: @Model.nome</h4>
+    <h4>Descrição: @Model.descricao</h4>
+    <h4>Categoria: @Model.grupoMuscular</h4>
+    <img src="@Url.Content(Model.imagem)" alt="Imagem do exercício" width="200">
+</div>
+
+<div id="rating">
+    <input type="hidden" id="exerciseId" value="@Model.id" />
+    <i class="fa fa-star" data-star-value="1"></i>
+    <i class="fa fa-star" data-star-value="2"></i>
+    <i class="fa fa-star" data-star-value="3"></i>
+    <i class="fa fa-star" data-star-value="4"></i>
+    <i class="fa fa-star" data-star-value="5"></i>
+</div>
+<button id="addToFavorites" class="btn btn-primary">Adicionar aos Favoritos</button>
+
+<style>
+    #rating .fa-star:hover,
+    #rating .fa-star.hover {
+        color: orange; 
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#rating .fa-star').hover(function () {
+            $(this).prevAll().addBack().addClass('hover');
+        }, function () {
+            $(this).prevAll().addBack().removeClass('hover');
+        });
+
+        $('#rating .fa-star').click(function () {
+            var exerciseId = $('#exerciseId').val();
+            var rating = $(this).data('star-value');
+
+         
+            $.ajax({
+                url: '/Exercicio/RateExercise',
+                type: 'POST',
+                data: { exerciseId: exerciseId, rating: rating },
+                success: function (response) {
+                    alert('Avaliação enviada com sucesso!');
+                },
+                error: function (xhr, status, error) {
+                    console.error(xhr.responseText);
+                    alert('Erro ao enviar a avaliação. Por favor, tente novamente.');
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+
+        $('#addToFavorites').click(function () {
+            var exerciseId = $('#exerciseId').val();
+
+            $.ajax({
+                url: '/Exercicio/AddToFavorites',
+                type: 'POST',
+                data: { exerciseId: exerciseId },
+                success: function (response) {
+                    alert('Exercício adicionado aos favoritos!');
+                },
+                error: function (xhr, status, error) {
+                    console.error(xhr.responseText);
+                    alert('Erro ao adicionar aos favoritos. Por favor, tente novamente.');
+                }
+            });
+        });
+    });
+</script>
+

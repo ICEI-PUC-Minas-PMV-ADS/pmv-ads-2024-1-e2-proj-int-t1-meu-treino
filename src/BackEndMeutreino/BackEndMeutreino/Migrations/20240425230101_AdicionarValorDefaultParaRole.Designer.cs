@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BackEndMeutreino.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20240417033343_First-Migration")]
-    partial class FirstMigration
+    [Migration("20240425230101_AdicionarValorDefaultParaRole")]
+    partial class AdicionarValorDefaultParaRole
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -175,7 +175,6 @@ namespace BackEndMeutreino.Migrations
                         .HasColumnName("peso");
 
                     b.Property<string>("role")
-                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("role");
 
