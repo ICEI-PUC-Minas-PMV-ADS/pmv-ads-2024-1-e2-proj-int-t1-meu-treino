@@ -25,7 +25,7 @@ namespace BackEndMeutreino.Models
 
         [Column("role")]
         [Display(Name = "role")]
-        public string role { get; set; }
+        public string? role { get; set; } = "user";
 
         [Column("altura")]
         [Display(Name = "altura")]
