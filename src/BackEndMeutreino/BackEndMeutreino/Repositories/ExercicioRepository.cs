@@ -12,11 +12,6 @@ namespace BackEndMeutreino.Repositories
             this.context = context;
         }
 
-        public void AddExercicio(Exercicio exercicio)
-        {
-            context.Exercicio.Add(exercicio);
-        }
-
         public Exercicio GetExercicio(int id)
         {
             return context.Exercicio.FirstOrDefault(e => e.id == id);
@@ -25,11 +20,6 @@ namespace BackEndMeutreino.Repositories
         public List<Exercicio> GetExercicios()
         {
             return context.Exercicio.ToList();
-        }
-
-        public async Task<bool> saveChangesAsync()
-        {
-            return await context.SaveChangesAsync() > 0;
         }
     }
 }

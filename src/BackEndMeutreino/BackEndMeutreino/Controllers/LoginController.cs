@@ -55,7 +55,7 @@ namespace BackEndMeutreino.Controllers
         public async Task<IActionResult> Logoff()
         {
             await new AuthService().Logoff(HttpContext);
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }

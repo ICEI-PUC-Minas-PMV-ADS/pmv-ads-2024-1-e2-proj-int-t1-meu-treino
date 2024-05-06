@@ -18,8 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\css\StyleSheet.css" />
-    <None Include="wwwroot\js\script.js" />
+    <None Include="wwwroot\**">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

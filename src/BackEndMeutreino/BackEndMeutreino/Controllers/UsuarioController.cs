@@ -38,83 +38,8 @@ namespace BackEndMeutreino.Controllers
             
         }
 
-
-        [Authorize]
-        public IActionResult Calculadora()
-        {
-            return View();
-        }
-
-        [Authorize]
-        [HttpPost]
-        public async Task<IActionResult> UpdateUsuario(Usuario user)
-        {
-
-            // Acessa as claims do usuário
-            var claims = ((ClaimsIdentity)User.Identity).Claims;
-
-            // Encontra a claim de email do usuário
-            var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email);
-
-            // Encontra o usuário no banco de dados
-            var usuario = repository.GetUsuario(email.Value);
-
-            usuario.altura = user.altura;
-            usuario.peso = user.peso;
-
-            repository.UpdateUsuario(usuario);
-            await repository.saveChangesAsync();
-
-            return RedirectToAction("Profile");
-
-        }
-
-
-
         [AllowAnonymous]
         public IActionResult Register()
-        {
-            return View();
-        }
-
-
-        [Authorize]
-        public IActionResult Profile()
-        {
-            var claims = ((ClaimsIdentity)User.Identity).Claims;
-
-            // Encontra a claim de email do usuário
-            var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email);
-
-            // Encontra o usuário no banco de dados
-            var usuario = repository.GetUsuario(email.Value);
-            return View(usuario);
-        }
-
-        [Authorize]
-        [HttpGet]
-        public IActionResult Historico()
-        {
-            var claims = ((ClaimsIdentity)User.Identity).Claims;
-
-            // Encontra a claim de email do usuário
-            var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email);
-
-            // Encontra o usuário no banco de dados
-            var usuario = repository.GetUsuario(email.Value);
-            var historico = repository.GetHistoricoPeso(usuario.id);
-            var data = new
-            {
-                labels = historico.Select(entry => entry.data), // Supondo que "Date" é a propriedade que armazena a data no histórico de peso
-                weights = historico.Select(entry => entry.peso) // Supondo que "Weight" é a propriedade que armazena o peso no histórico de peso
-            };
-
-            // Envie os dados como JSON
-            return Json(data);
-        }
-
-        [Authorize]
-        public IActionResult HistoricoPeso()
         {
             return View();
         }
