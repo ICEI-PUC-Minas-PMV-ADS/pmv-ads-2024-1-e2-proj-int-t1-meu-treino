@@ -28,28 +28,7 @@ namespace BackEndMeutreino.Controllers
             return View(exercicio);
         }
 
-        [Authorize]
-        [HttpPost]
-        public async Task<IActionResult> RateExercise(int exerciseId, int rating)
-        {
-            var claims = ((ClaimsIdentity)User.Identity).Claims;
-
-            // Encontra a claim de email do usuário
-            var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email);
-
-            // Encontra o usuário no banco de dados
-            var usuario = usuarioRepository.GetUsuario(email.Value);
-            var avaliacao = new Avaliacao
-            {
-                idUsuario = usuario.id,
-                idExercicio = exerciseId,
-                avaliacao = rating
-            };
-            avaliacaoRepository.AddAvaliacao(avaliacao);
-            await avaliacaoRepository.saveChangesAsync();
-            return RedirectToAction("Index", "Home");
-           
-        }
+        
 
         [Authorize(Roles = "admin")]
         public IActionResult Register()
@@ -65,25 +44,5 @@ namespace BackEndMeutreino.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [Authorize]
-        [HttpPost]
-        public async Task<IActionResult> AddToFavorites(int exerciseId)
-        {
-            var claims = ((ClaimsIdentity)User.Identity).Claims;
-
-            // Encontra a claim de email do usuário
-            var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email);
-
-            // Encontra o usuário no banco de dados
-            var usuario = usuarioRepository.GetUsuario(email.Value);
-            var favoritos = new Favoritos
-            {
-                idUsuario = usuario.id,
-                idExercicio = exerciseId
-            };
-            favoritosRepository.Add(favoritos);
-            await usuarioRepository.saveChangesAsync();
-            return RedirectToAction("Index", "Home");
-        }
-    }
+       
 }
