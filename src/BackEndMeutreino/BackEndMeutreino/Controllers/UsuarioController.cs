@@ -38,17 +38,10 @@ namespace BackEndMeutreino.Controllers
             
         }
 
-
-
-
-
-
         [AllowAnonymous]
         public IActionResult Register()
         {
             return View();
         }
-
-
-        
+    }
 }

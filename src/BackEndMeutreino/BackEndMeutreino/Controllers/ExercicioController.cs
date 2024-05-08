@@ -9,16 +9,11 @@ namespace BackEndMeutreino.Controllers
     public class ExercicioController : Controller
     {
         private readonly IExercicioRepository repository;
-        private readonly IAvaliacaoRepository avaliacaoRepository;
-        private readonly IUsuarioRepository usuarioRepository;
-        private readonly IFavoritosRepository favoritosRepository;
 
-        public ExercicioController(IExercicioRepository repository, IAvaliacaoRepository avaliacaoRepository, IUsuarioRepository usuarioRepository, IFavoritosRepository favoritosRepository)
+        public ExercicioController(IExercicioRepository repository)
         {
             this.repository = repository;
-            this.avaliacaoRepository = avaliacaoRepository;
-            this.usuarioRepository = usuarioRepository;
-            this.favoritosRepository = favoritosRepository;
+           
         }
 
         [Authorize]
@@ -28,13 +23,12 @@ namespace BackEndMeutreino.Controllers
             return View(exercicio);
         }
 
-        
-
         [Authorize(Roles = "admin")]
         public IActionResult Register()
         {
             return View();
         }
+
         [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<IActionResult> AddExercise(Exercicio exercicio)

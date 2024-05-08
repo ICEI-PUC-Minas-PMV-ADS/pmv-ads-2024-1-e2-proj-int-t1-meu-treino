@@ -23,8 +23,6 @@ builder.Services.AddEntityFrameworkNpgsql()
 
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IExercicioRepository, ExercicioRepository>();
-builder.Services.AddScoped<IAvaliacaoRepository, AvaliacaoRepository>();
-builder.Services.AddScoped<IFavoritosRepository, FavoritosRepository>();
 
 var app = builder.Build();
 
