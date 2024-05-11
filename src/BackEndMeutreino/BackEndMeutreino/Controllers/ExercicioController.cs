@@ -14,9 +14,12 @@ namespace BackEndMeutreino.Controllers
         private readonly IAvaliacaoRepository avaliacaoRepository;
         private readonly IFavoritosRepository favoritosRepository;
 
-        public ExercicioController(IExercicioRepository repository)
+        public ExercicioController(IExercicioRepository repository, IUsuarioRepository usuarioRepository, IAvaliacaoRepository avaliacaoRepository, IFavoritosRepository favoritosRepository)
         {
             this.repository = repository;
+            this.usuarioRepository = usuarioRepository;
+            this.avaliacaoRepository = avaliacaoRepository;
+            this.favoritosRepository = favoritosRepository;
 
         }
 
