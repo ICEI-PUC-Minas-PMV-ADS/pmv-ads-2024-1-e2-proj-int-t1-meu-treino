@@ -13,7 +13,7 @@ namespace BackEndMeutreino.Controllers
         public ExercicioController(IExercicioRepository repository)
         {
             this.repository = repository;
-           
+
         }
 
         [Authorize]
@@ -38,5 +38,6 @@ namespace BackEndMeutreino.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-       
+
+    }
 }
