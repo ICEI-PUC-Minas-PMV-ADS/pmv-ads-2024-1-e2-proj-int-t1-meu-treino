@@ -1,22 +1,75 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
 
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Visualizar exercícios e registrar peso** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|	Requisito Associado 	| RF-004, RF-008 - A aplicação deve apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração e  deve permitir ao usuário registrar seu peso. |
+|	Resultado 	| Teste realizado com sucesso, mas na parte de registrar a conta o usuario relatou a falta da especificação da unidade de medida da altura e do peso, junto da falta de um botão "Voltar" e na pagina de exercícios relatou sobre a discrepância da dificuldade |
+|	Ação 	| Será adicionado na proxima etapa por questões de tempo |
 
-| **Caso de Teste** 	| **CT-02 – Realizar login** 	|
+**REGISTRO DE EVIDÊNCIA 01**
+
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/bbd83bfc-0d36-4167-809f-5d82c142bd16
+
+
+
+| **Caso de Teste** 	| **CT-02 – Editar o perfil** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+|	Requisito Associado 	| RF-010 - A aplicação deve permitir ao usuário editar seu perfil. |
+| Resultado | Teste realizado com sucesso, mas com o usuario sentindo falta das unidades de medica do peso e da altura |
+| Ação | Será adicionado na proxima etapa pois não é essencial para a aplicação funcionar |
+
+**REGISTRO DE EVIDÊNCIA 02**
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/50cbc109-18df-4dde-945e-5954e976656b
+
+
+
+| **Caso de Teste** 	| **CT-03 – Acompanhar o progresso do peso** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-009 - A aplicação deve permitir ao usuário acompanhar o progresso de seu peso. |
+| Resultado | Teste realizado com conflito, a aplicação so começa a registrar o peso quando altera no perfil, nao marcando o peso inicial, o colocado na hora de registrar a conta |
+| Ação | Será adicionado na proxima etapa por questões de tempo |
+
+**REGISTRO DE EVIDÊNCIA 03**
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/74f24e0c-d2d8-43bc-a379-6bcdbea441f8
+
+| **Caso de Teste** 	| **CT-04 – Cálculo IMC** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-002 - A aplicação deve permitir ao usuário calcular seu IMC. |
+| Resultado | Teste realizado com sucesso, o usuário acha pratico ja calcular com o peso e altura atribuidos ao perfil |
+| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
+
+**REGISTRO DE EVIDÊNCIA 04**
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/ad0cbaa9-c2c3-40e0-a363-fd5d734d2986
+
+| **Caso de Teste** 	| **CT-05 – Visualizar descrição e adicionar aos favoritos** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-003, RF-004 - A aplicação deve permitir incluir exercícios ao favorito e deve apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração. |
+| Resultado | Teste realizado com sucesso, o usuário acha pratico video auxiliando na execução dos exercícios |
+| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
+
+**REGISTRO DE EVIDÊNCIA 05**
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/d914e644-15a9-44cd-97ad-e89e7d3a12cf
+
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Em geral a aplicação está estável, com apenas um caso de teste com bug. se preciso, temos que repensar o RF-04 para poder adicionar videos ao inves de imagens.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
