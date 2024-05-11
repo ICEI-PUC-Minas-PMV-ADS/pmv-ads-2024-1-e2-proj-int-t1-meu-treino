@@ -38,6 +38,12 @@ namespace BackEndMeutreino.Controllers
             
         }
 
+        [Authorize]
+        public IActionResult Calculadora()
+        {
+            return View();
+        }
+
         [AllowAnonymous]
         public IActionResult Register()
         {
