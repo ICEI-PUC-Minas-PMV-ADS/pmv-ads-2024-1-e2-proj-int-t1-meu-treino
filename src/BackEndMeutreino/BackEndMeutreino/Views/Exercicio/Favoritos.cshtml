@@ -1,0 +1,26 @@
+﻿@model IEnumerable<BackEndMeutreino.Models.Favoritos>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Meus Favoritos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome do Exercício</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var favorito in Model)
+        {
+            <tr>
+                <td>@favorito.exercicio.id</td>
+                <td>
+                    <a href="@Url.Action("ExerciseDetails", "Exercicio", new { id = favorito.idExercicio })" class="btn btn-primary">Detalhes</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
