@@ -22,9 +22,9 @@ namespace BackEndMeutreino.Controllers
         }
 
         [Authorize]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Exercicio> exercicios = repository.GetExercicios();
+            List<Exercicio> exercicios = (List<Exercicio>) await repository.GetAllExercisesAsync();
             return View(exercicios);
         }
  

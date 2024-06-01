@@ -24,25 +24,10 @@ namespace BackEndMeutreino.Controllers
         }
 
         [Authorize]
-        public IActionResult ExerciseDetails(int id)
+        public async Task<IActionResult> ExerciseDetails(int id)
         {
-            var exercicio = repository.GetExercicio(id);
+            var exercicio = await repository.GetExerciseByIdAsync(id);
             return View(exercicio);
-        }
-
-        [Authorize(Roles = "admin")]
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        [Authorize(Roles = "admin")]
-        [HttpPost]
-        public async Task<IActionResult> AddExercise(Exercicio exercicio)
-        {
-            repository.AddExercicio(exercicio);
-            await repository.saveChangesAsync();
-            return RedirectToAction("Index", "Home");
         }
 
         [Authorize]
@@ -66,6 +51,25 @@ namespace BackEndMeutreino.Controllers
             await avaliacaoRepository.saveChangesAsync();
             return RedirectToAction("Index", "Home");
 
+        }
+
+        [Authorize(Roles = "admin")]
+        [HttpGet]
+        public IActionResult AddExercise()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "admin")]
+        [HttpPost]
+        public async Task<IActionResult> AddExercise(Exercicio model)
+        {
+            if (ModelState.IsValid)
+            {
+                await repository.AddExerciseAsync(model);
+                return RedirectToAction("Index", "Home");
+            }
+            return View(model);
         }
 
         [Authorize]
@@ -109,5 +113,48 @@ namespace BackEndMeutreino.Controllers
             return View(favoritos);
         }
 
+        [Authorize(Roles = "admin")]
+        [HttpGet]
+        public async Task<IActionResult> EditExercise(int id)
+        {
+            var exercicio = await repository.GetExerciseByIdAsync(id);
+            if (exercicio == null)
+            {
+                return NotFound();
+            }
+            return View(exercicio);
+        }
+
+        [Authorize(Roles = "admin")]
+        [HttpPost]
+        public async Task<IActionResult> EditExercise(Exercicio model)
+        {
+            if (ModelState.IsValid)
+            {
+                await repository.UpdateExerciseAsync(model);
+                return RedirectToAction("Index", "Home");
+            }
+            return View(model);
+        }
+
+        [Authorize(Roles = "admin")]
+        [HttpGet]
+        public async Task<IActionResult> DeleteExercise(int id)
+        {
+            var exercicio = await repository.GetExerciseByIdAsync(id);
+            if (exercicio == null)
+            {
+                return NotFound();
+            }
+            return View(exercicio);
+        }
+
+        [Authorize(Roles = "admin")]
+        [HttpPost, ActionName("DeleteExercise")]
+        public async Task<IActionResult> DeleteExerciseConfirmed(int id)
+        {
+            await repository.DeleteExerciseAsync(id);
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
