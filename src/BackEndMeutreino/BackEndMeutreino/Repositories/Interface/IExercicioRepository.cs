@@ -4,11 +4,14 @@ namespace BackEndMeutreino.Repositories.Interface
 {
     public interface IExercicioRepository
     {
-        public List<Exercicio> GetExercicios();
-        public Exercicio GetExercicio(int id);
+        Task<IEnumerable<Exercicio>> GetAllExercisesAsync();
+        Task<Exercicio> GetExerciseByIdAsync(int id);
 
-        public void AddExercicio(Exercicio exercicio);
+        Task AddExerciseAsync(Exercicio exercicio);
 
-         Task<bool> saveChangesAsync();
+        Task<bool> saveChangesAsync();
+
+        Task UpdateExerciseAsync(Exercicio exercicio);
+        Task DeleteExerciseAsync(int id);
     }
 }

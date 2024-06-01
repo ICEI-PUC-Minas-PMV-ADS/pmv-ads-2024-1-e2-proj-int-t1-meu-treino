@@ -1,0 +1,49 @@
+﻿@model BackEndMeutreino.Models.Exercicio
+
+@{
+    ViewBag.Title = "Add Exercise";
+}
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Add Exercise</h2>
+
+<div class="login-form">
+    @using (Html.BeginForm("AddExercise", "Exercicio", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nome, htmlAttributes: new { @class = "control-label" })
+            @Html.EditorFor(model => model.nome, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.nome, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dificuldade, htmlAttributes: new { @class = "control-label" })
+            @Html.EditorFor(model => model.dificuldade, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.dificuldade, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.descricao, htmlAttributes: new { @class = "control-label" })
+            @Html.PasswordFor(model => model.descricao, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.descricao, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.grupoMuscular, htmlAttributes: new { @class = "control-label" })
+            @Html.EditorFor(model => model.grupoMuscular, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.grupoMuscular, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.imagem, htmlAttributes: new { @class = "control-label" })
+            @Html.EditorFor(model => model.imagem, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.imagem, "", new { @class = "text-danger" })
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register</button>
+    }
+</div>

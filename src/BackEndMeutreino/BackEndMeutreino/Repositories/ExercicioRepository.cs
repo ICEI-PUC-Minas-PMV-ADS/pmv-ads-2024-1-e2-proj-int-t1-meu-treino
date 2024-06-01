@@ -1,5 +1,6 @@
 ﻿using BackEndMeutreino.Models;
 using BackEndMeutreino.Repositories.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace BackEndMeutreino.Repositories
 {
@@ -12,24 +13,41 @@ namespace BackEndMeutreino.Repositories
             this.context = context;
         }
 
-        public void AddExercicio(Exercicio exercicio)
+        public async Task AddExerciseAsync(Exercicio exercicio)
         {
             context.Exercicio.Add(exercicio);
+            await context.SaveChangesAsync();
         }
 
-        public Exercicio GetExercicio(int id)
+        public async Task<IEnumerable<Exercicio>> GetAllExercisesAsync()
         {
-            return context.Exercicio.FirstOrDefault(e => e.id == id);
+            return await context.Exercicio.ToListAsync();
         }
 
-        public List<Exercicio> GetExercicios()
+        public async Task<Exercicio> GetExerciseByIdAsync(int id)
         {
-            return context.Exercicio.ToList();
+            return await context.Exercicio.FindAsync(id);
         }
 
         public async Task<bool> saveChangesAsync()
         {
             return await context.SaveChangesAsync() > 0;
+        }
+
+        public async Task UpdateExerciseAsync(Exercicio exercicio)
+        {
+            context.Entry(exercicio).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+        }
+
+        public async Task DeleteExerciseAsync(int id)
+        {
+            var exercicio = await context.Exercicio.FindAsync(id);
+            if (exercicio != null)
+            {
+                context.Exercicio.Remove(exercicio);
+                await context.SaveChangesAsync();
+            }
         }
     }
 }
