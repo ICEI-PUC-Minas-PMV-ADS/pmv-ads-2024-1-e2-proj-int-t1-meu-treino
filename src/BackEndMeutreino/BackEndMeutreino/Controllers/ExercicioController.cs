@@ -4,6 +4,7 @@ using BackEndMeutreino.Repositories.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace BackEndMeutreino.Controllers
 {
@@ -92,8 +93,10 @@ namespace BackEndMeutreino.Controllers
             await usuarioRepository.saveChangesAsync();
             return RedirectToAction("Index", "Home");
         }
+
         [Authorize]
-        public IActionResult Favorites()
+        [HttpGet]
+        public IActionResult Favoritos()
         {
             var claims = ((ClaimsIdentity)User.Identity).Claims;
             var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
@@ -111,6 +114,29 @@ namespace BackEndMeutreino.Controllers
 
             var favoritos = favoritosRepository.GetFavoritosByUsuario(usuario.id);
             return View(favoritos);
+        }
+
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> DeleteFavoritos(int id)
+        {
+            var claims = ((ClaimsIdentity)User.Identity).Claims;
+            var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+
+            if (string.IsNullOrEmpty(email))
+            {
+                return Unauthorized();
+            }
+
+            var usuario = usuarioRepository.GetUsuario(email);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            await favoritosRepository.deleteFavoritosAsync(usuario.id, id);
+
+            return RedirectToAction("Index", "Home");
         }
 
         [Authorize(Roles = "admin")]

@@ -8,5 +8,7 @@ namespace BackEndMeutreino.Repositories.Interface
         void Add(Favoritos favoritos);
         List<Favoritos> GetFavoritosByUsuario(int idUsuario);
         Task<bool> saveChangesAsync();
+
+        Task deleteFavoritosAsync(int idUsuario, int idExercicio);
     }
 }

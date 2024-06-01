@@ -20,7 +20,19 @@ namespace BackEndMeutreino.Repositories
         {
             context.Favoritos.Add(favoritos);
         }
-        
+
+        public async Task deleteFavoritosAsync(int idUsuario, int idExercicio)
+        {
+            var favorito = context.Favoritos
+                                  .Where(f => f.idUsuario == idUsuario && f.idExercicio == idExercicio)
+                                  .FirstOrDefault();
+            if (favorito != null)
+            {
+                context.Favoritos.Remove(favorito);
+                await context.SaveChangesAsync();
+            }
+        }
+
         public List<Favoritos> GetFavoritosByUsuario(int idUsuario)
         {
             return context.Favoritos
