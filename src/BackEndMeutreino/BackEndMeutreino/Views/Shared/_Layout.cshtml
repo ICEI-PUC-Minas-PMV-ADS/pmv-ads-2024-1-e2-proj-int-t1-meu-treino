@@ -34,14 +34,20 @@
                         <span>Profile</span>
                     </a>
                 </li>
+                <li class="sidebar-item">
+                    <a href="/Exercicio/Favorites" class="sidebar-link">
+                        <i class="lni lni-star-fill"></i>
+                        <span>Meus Favoritos</span>
+                    </a>
+                </li>
                 @if (userRoleClaim == "admin")
                 {
-                    <li class="sidebar-item">
-                        <a href="/Exercicio/Register" class="sidebar-link">
-                            <i class="lni lni-agenda"></i>
-                            <span>Cadastrar Exercicio</span>
-                        </a>
-                    </li>
+                <li class="sidebar-item">
+                    <a href="/Exercicio/Register" class="sidebar-link">
+                        <i class="lni lni-agenda"></i>
+                        <span>Cadastrar Exercicio</span>
+                    </a>
+                </li>
                 }
                 <li class="sidebar-item">
                     <a href="/Usuario/Calculadora" class="sidebar-link">
@@ -74,6 +80,6 @@
             crossorigin="anonymous"></script>
     <script src="~/js/script.js"></script>
 
-  
+
 </body>
 </html>

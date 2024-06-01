@@ -89,6 +89,29 @@ namespace BackEndMeutreino.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [Authorize]
+        public IActionResult Favorites()
+        {
+            var claims = ((ClaimsIdentity)User.Identity).Claims;
+            var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+
+            if (string.IsNullOrEmpty(email))
+            {
+                return Unauthorized();
+            }
+
+            var usuario = usuarioRepository.GetUsuario(email);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            var favoritos = favoritosRepository.GetFavoritosByUsuario(usuario.id);
+            return View(favoritos);
+        }
+
+
 
     }
 }
+
