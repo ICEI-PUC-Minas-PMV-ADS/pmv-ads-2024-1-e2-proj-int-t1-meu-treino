@@ -12,24 +12,24 @@
 
 <script>
     $(document).ready(function () {
-        
+
         $.ajax({
-            url: '/Usuario/Historico', 
+            url: '/Usuario/Historico',
             type: 'GET',
             success: function (data) {
-                
+
                 var weightData = {
                     labels: data.labels,
                     datasets: [{
                         label: 'Peso (kg)',
-                        data: data.weights, 
+                        data: data.weights,
                         backgroundColor: 'rgba(54, 162, 235, 0.2)',
                         borderColor: 'rgba(54, 162, 235, 1)',
                         borderWidth: 1
                     }]
                 };
 
-                
+
                 var chartOptions = {
                     scales: {
                         xAxes: [{
@@ -51,7 +51,7 @@
                     }
                 };
 
-               
+
                 var ctx = document.getElementById('weightChart').getContext('2d');
                 var weightChart = new Chart(ctx, {
                     type: 'line',

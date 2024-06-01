@@ -16,7 +16,6 @@ namespace BackEndMeutreino.Repositories
         public void adicionarUsuario(Usuario user)
         {
              context.Usuario.Add(user);
-            // context.HistoricoPeso.Add(new HistoricoPeso { data = DateTime.Now.ToString(), peso = user.peso, idUsuario =  });
 
         }
 

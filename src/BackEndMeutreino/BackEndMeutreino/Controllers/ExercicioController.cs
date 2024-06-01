@@ -10,16 +10,17 @@ namespace BackEndMeutreino.Controllers
     public class ExercicioController : Controller
     {
         private readonly IExercicioRepository repository;
-        private readonly IAvaliacaoRepository avaliacaoRepository;
         private readonly IUsuarioRepository usuarioRepository;
+        private readonly IAvaliacaoRepository avaliacaoRepository;
         private readonly IFavoritosRepository favoritosRepository;
 
-        public ExercicioController(IExercicioRepository repository, IAvaliacaoRepository avaliacaoRepository, IUsuarioRepository usuarioRepository, IFavoritosRepository favoritosRepository)
+        public ExercicioController(IExercicioRepository repository, IUsuarioRepository usuarioRepository, IAvaliacaoRepository avaliacaoRepository, IFavoritosRepository favoritosRepository)
         {
             this.repository = repository;
-            this.avaliacaoRepository = avaliacaoRepository;
             this.usuarioRepository = usuarioRepository;
+            this.avaliacaoRepository = avaliacaoRepository;
             this.favoritosRepository = favoritosRepository;
+
         }
 
         [Authorize]
@@ -49,7 +50,7 @@ namespace BackEndMeutreino.Controllers
             avaliacaoRepository.AddAvaliacao(avaliacao);
             await avaliacaoRepository.saveChangesAsync();
             return RedirectToAction("Index", "Home");
-           
+
         }
 
         [Authorize(Roles = "admin")]
