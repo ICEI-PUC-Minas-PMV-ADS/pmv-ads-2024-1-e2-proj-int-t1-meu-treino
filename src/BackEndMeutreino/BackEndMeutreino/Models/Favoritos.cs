@@ -19,5 +19,7 @@ namespace BackEndMeutreino.Models
         [Column("id_exercicio")]
         public int idExercicio { get; set; }
         public Exercicio exercicio { get; set; }
+
+
     }
 }
