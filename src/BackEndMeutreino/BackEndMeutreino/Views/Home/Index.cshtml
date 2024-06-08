@@ -8,44 +8,46 @@
 
 @Model List<BackEndMeutreino.Models.Exercicio>
 
-    <div class="mb-3">
-        <input type="text" id="searchInput" class="form-control" placeholder="Pesquisar por nome ou grupo muscular">
-    </div>
+<div class="mb-3">
+    <input type="text" id="searchInput" class="form-control" placeholder="Pesquisar por nome ou grupo muscular">
+</div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Grupo Muscular</th>
-            <th>Dificuldade</th>
-            <th>Imagem</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var exercise in Model)
-        {
+<div class="table-responsive">
+    <table class="table">
+        <thead>
             <tr>
-                <td>@exercise.nome</td>
-                <td>@exercise.grupoMuscular</td>
-                <td>@exercise.dificuldade</td>
-                <td><img src="@Url.Content(exercise.imagem)" alt="Imagem do exercício" width="100"></td>
-                <td><a href="@Url.Action("ExerciseDetails", "Exercicio", new { id = exercise.id })">Ver detalhes</a></td>
+                <th>Nome</th>
+                <th>Grupo Muscular</th>
+                <th>Dificuldade</th>
+                <th>Imagem</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var exercise in Model)
+            {
+                <tr>
+                    <td>@exercise.nome</td>
+                    <td>@exercise.grupoMuscular</td>
+                    <td>@exercise.dificuldade</td>
+                    <td><img src="@Url.Content(exercise.imagem)" alt="Imagem do exercício" width="100"></td>
+                    <td><a href="@Url.Action("ExerciseDetails", "Exercicio", new { id = exercise.id })">Ver detalhes</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#searchInput').on('input', function () {
-                var searchText = $(this).val().toLowerCase();
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#searchInput').on('input', function () {
+            var searchText = $(this).val().toLowerCase();
 
-                $('tbody tr').hide();
+            $('tbody tr').hide();
 
-                $('tbody tr').filter(function () {
-                    return $(this).text().toLowerCase().includes(searchText);
-                }).show();
-            });
+            $('tbody tr').filter(function () {
+                return $(this).text().toLowerCase().includes(searchText);
+            }).show();
         });
-    </script>
+    });
+</script>
