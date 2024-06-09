@@ -69,6 +69,20 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/d914e644-15a9-44cd-97ad-e89e7d3a12cf
 
 
+
+| **Caso de Teste** 	| **CT-07 – Painel de Administração** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-007 - O administrador deve ter acesso ao painel de administração |
+| Resultado | Teste realizado com sucesso, o administrador consegue adicionar, editar e excluir os exercícios. |
+| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
+
+**REGISTRO DE EVIDÊNCIA 07**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/145210886/a346f76a-c4a5-4143-af25-7e91c23b4395
+
+
+
+
 ## Avaliação
 
 Em geral a aplicação está estável, com apenas um caso de teste com bug. se preciso, temos que repensar o RF-04 para poder adicionar videos ao inves de imagens.
