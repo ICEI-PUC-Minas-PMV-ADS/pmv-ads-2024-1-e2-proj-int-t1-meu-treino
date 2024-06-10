@@ -80,7 +80,21 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/145210886/a346f76a-c4a5-4143-af25-7e91c23b4395
 
+| **Caso de Teste** 	| **CT-08 – Incluir exercícios ao favorito** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-003 -  A aplicação deve permitir incluir exercícios ao favorito |
+| Resultado | Teste realizado com sucesso, o usuário consegue adicionar os exercicos ao favoritos com facilidade. |
+| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Adicionar%20aos%20favoritos.mp4
+
+| **Caso de Teste** 	| **CT-09 – Pesquisar por nome, grupos musculares ou equipamentos necessários** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 -  A aplicação deve permitir ao usuário pesquisar uma lista de exercícios por nome, grupo muscular ou equipamentos. |
+| Resultado | Teste realizado com sucesso, o usuário consegue fazer a busca dos exercicos tanto pelo nome tanto pelo grupo muscular. |
+| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Teste%20barra%20de%20pesquisa.mp4
 
 
 ## Avaliação
