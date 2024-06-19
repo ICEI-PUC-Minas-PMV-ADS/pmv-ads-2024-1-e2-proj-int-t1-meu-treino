@@ -58,15 +58,32 @@ Os testes realizados demonstraram que a aplicação atende a maioria dos requisi
 <br><br><br>
 
 ## Relatório Final do Registro de Testes de Usabilidade
+<br>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
-galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+1. CT-01 – Responsividade e interface simples
+- Requisito Associado: RNF-001, RNF-005, RNF-006
+- Resultado: Teste realizado com sucesso, a aplicação está com a interface simples de entender e responsiva em telas menores.
+- Ação: Nenhuma ação será necessária, pois atendeu corretamente.
+<br>
 
+1. CT-02 – Acessibilidade
+- Requisito Associado: RNF-002
+- Resultado: Teste realizado com sucesso, a aplicação ficou toda acessivel no dispositivo movel na posição horizontal, em tablets e telas maiores a responsividade se mantem.
+- Ação: Nenhuma ação será necessária, pois atendeu corretamente.
+<br>
+
+1. CT-03 – Compatibilidade
+- Requisito Associado: RNF-003
+- Resultado: Teste foi realizado e foi possivel acessar em navegadores comuns como Google Chrome e Microsoft Edge.
+- Ação: Nenhuma ação será necessária, pois atendeu corretamente.
+<br>
+
+1. CT-04 – Processo de carregamento das imagens
+- Requisito Associado: RNF-004
+- Resultado: Teste foi realizado com sucesso, garantindo um rapido carregamento das imagens.
+- Ação: Nenhuma ação será necessária, pois atendeu corretamente.
+<br>
+
+De acordo com os testes realizados, a aplicação atende aos requisitos não funcionais, embora algumas melhorias possam ser feitas para proporcionar uma melhor experiência. 
 
 <br> <br>
-## Conclusão
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
-galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
