@@ -6,7 +6,7 @@
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-004, RF-008 - A aplicação deve apresentar uma lista de exercícios de alguns grupos musculares, incluindo nome, descrição e imagem/ilustração e  deve permitir ao usuário registrar seu peso. |
 |	Resultado 	| Teste realizado com sucesso, mas na parte de registrar a conta o usuario relatou a falta da especificação da unidade de medida da altura e do peso, junto da falta de um botão "Voltar" e na pagina de exercícios relatou sobre a discrepância da dificuldade |
-|	Ação 	| Será adicionado na proxima etapa por questões de tempo |
+|	Ação 	| Será ignorado pois não é essencial para a aplicação funcionar |
 
 **REGISTRO DE EVIDÊNCIA 01**
 
@@ -21,8 +21,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 | **Caso de Teste** 	| **CT-02 – Editar o perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-010 - A aplicação deve permitir ao usuário editar seu perfil. |
-| Resultado | Teste realizado com sucesso, mas com o usuario sentindo falta das unidades de medica do peso e da altura |
-| Ação | Será adicionado na proxima etapa pois não é essencial para a aplicação funcionar |
+| Resultado | Teste realizado com sucesso |
+| Ação | Teste com sucesso |
 
 **REGISTRO DE EVIDÊNCIA 02**
 
@@ -36,8 +36,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 | **Caso de Teste** 	| **CT-03 – Acompanhar o progresso do peso** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-009 - A aplicação deve permitir ao usuário acompanhar o progresso de seu peso. |
-| Resultado | Teste realizado com conflito, a aplicação so começa a registrar o peso quando altera no perfil, nao marcando o peso inicial, o colocado na hora de registrar a conta |
-| Ação | Será adicionado na proxima etapa por questões de tempo |
+| Resultado | Teste realizado com sucesso, mas a aplicação so começa a registrar o peso quando altera no perfil, nao marcando o peso inicial, o colocado na hora de registrar a conta |
+| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
 
 **REGISTRO DE EVIDÊNCIA 03**
 
@@ -50,7 +50,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - A aplicação deve permitir ao usuário calcular seu IMC. |
 | Resultado | Teste realizado com sucesso, o usuário acha pratico ja calcular com o peso e altura atribuidos ao perfil |
-| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
+| Ação | Teste com sucesso |
 
 **REGISTRO DE EVIDÊNCIA 04**
 
@@ -74,9 +74,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-007 - O administrador deve ter acesso ao painel de administração |
 | Resultado | Teste realizado com sucesso, o administrador consegue adicionar, editar e excluir os exercícios. |
-| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
+| Ação | Teste com sucesso |
 
-**REGISTRO DE EVIDÊNCIA 07**
+**REGISTRO DE EVIDÊNCIA 06**
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/145210886/a346f76a-c4a5-4143-af25-7e91c23b4395
 
@@ -84,7 +84,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 -  A aplicação deve permitir incluir exercícios ao favorito |
 | Resultado | Teste realizado com sucesso, o usuário consegue adicionar os exercicos ao favoritos com facilidade. |
-| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
+| Ação | Teste com sucesso |
+
+**REGISTRO DE EVIDÊNCIA 07**
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Adicionar%20aos%20favoritos.mp4
 
@@ -92,12 +94,14 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-005 -  A aplicação deve permitir ao usuário pesquisar uma lista de exercícios por nome, grupo muscular ou equipamentos. |
 | Resultado | Teste realizado com sucesso, o usuário consegue fazer a busca dos exercicos tanto pelo nome tanto pelo grupo muscular. |
-| Ação | Será ignorado pois não é essencial para a aplicação funcionar |
+| Ação | Teste com sucesso |
+
+**REGISTRO DE EVIDÊNCIA 08**
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Teste%20barra%20de%20pesquisa.mp4
 
 
 ## Avaliação
 
-Em geral a aplicação está estável, com apenas um caso de teste com bug. se preciso, temos que repensar o RF-04 para poder adicionar videos ao inves de imagens.
+Em geral a aplicação está estável, apenas com necessidades de estilo, no qual nao é necessario para a aplicação funcionar.
 
