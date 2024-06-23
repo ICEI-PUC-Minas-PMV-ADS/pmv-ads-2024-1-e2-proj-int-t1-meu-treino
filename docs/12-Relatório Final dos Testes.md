@@ -84,6 +84,7 @@ Os testes realizados demonstraram que a aplicação atende a maioria dos requisi
 - Ação: Nenhuma ação será necessária, pois atendeu corretamente.
 <br>
 
-De acordo com os testes realizados, a aplicação atende aos requisitos não funcionais, embora algumas melhorias possam ser feitas para proporcionar uma melhor experiência. 
+De acordo com os testes realizados, a aplicação atende aos requisitos não funcionais. No entanto, algumas melhorias podem ser implementadas para proporcionar uma melhor experiência ao usuário, como a responsividade em dispositivos móveis e a opção para retornar à tela principal.
 
 <br> <br>
+ 
