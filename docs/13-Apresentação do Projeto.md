@@ -3,7 +3,7 @@
 
 
 
-https://www.canva.com/design/DAGI_ye4Xik/6yzOuV4mdV77YNtl0Dyhow/edit
+[Clique aqui para abrir](https://www.canva.com/design/DAGI_ye4Xik/hb9agUsRYSeWDnbtAeX8nw/view?utm_content=DAGI_ye4Xik&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 
 
