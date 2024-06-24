@@ -3,15 +3,14 @@
 
 
 
-
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/febe6e15-815c-4807-a186-d62398d60e7f
+https://www.canva.com/design/DAGI_ye4Xik/6yzOuV4mdV77YNtl0Dyhow/edit
 
 
 
 
 
-## MEU TREINO
+## Título do Projeto
+ MEU TREINO
 
 
 ## Identidade Visual (Marca, Design)
