@@ -8,9 +8,8 @@ Projeto Slide
 
 
 
-## Título do Projeto
+## MEU TREINO
 
-Nome: MEU TREINO 
 
 ## Identidade Visual (Marca, Design)
 
