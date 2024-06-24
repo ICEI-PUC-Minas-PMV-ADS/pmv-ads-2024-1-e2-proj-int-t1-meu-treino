@@ -53,7 +53,7 @@ Os relatórios documentam os resultados dos testes de software e usabilidade rea
 - Ação: Nenhuma ação necessária, funcionalidade não é essencial.
 
 <br>
-Os testes realizados demonstraram que a aplicação atende a maioria dos requisitos funcionais, com algumas melhorias identificadas que serão implementadas na próxima etapa. As correções são principalmente relacionadas à especificação de unidades de medida e ao registro inicial de peso. As funcionalidades que não são essenciais para o funcionamento da aplicação foram consideradas satisfatórias e não requerem ações imediatas.
+Os testes realizados demonstraram que a aplicação atende a maioria dos requisitos funcionais, com algumas melhorias identificadas que já foram implementadas. As correções são principalmente relacionadas à especificação de unidades de medida e ao registro inicial de peso. As funcionalidades que não são essenciais para o funcionamento da aplicação foram consideradas satisfatórias.
 
 <br><br><br>
 
