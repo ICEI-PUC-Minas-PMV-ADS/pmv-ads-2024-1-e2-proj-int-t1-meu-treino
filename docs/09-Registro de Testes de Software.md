@@ -88,7 +88,11 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 
 **REGISTRO DE EVIDÊNCIA 07**
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Adicionar%20aos%20favoritos.mp4
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/d0d23113-5653-4e9f-9772-ba11cf4877c9
+
+
 
 | **Caso de Teste** 	| **CT-09 – Pesquisar por nome, grupos musculares ou equipamentos necessários** 	|
 |:---:	|:---:	|
@@ -98,7 +102,11 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-trei
 
 **REGISTRO DE EVIDÊNCIA 08**
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/blob/main/docs/img/Teste%20barra%20de%20pesquisa.mp4
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino/assets/144072871/01c571a8-a74d-48b7-9000-26232b714f28
+
+
 
 
 ## Avaliação
