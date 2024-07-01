@@ -1,0 +1,32 @@
+message: Aplicação de exercícios e saúde.
+title: Meu Treino
+authors:
+  - family-names: Pereira Nascimento
+    given-names: Adriana
+  - family-names: Rodrigues Araujo
+    given-names: Douglas
+  - family-names: Vitor da Silva Souza
+    given-names: Jose
+  - family-names: Gonçalves de Souza Silva
+    given-names: Lucas
+  - family-names: Romero Soltau
+    given-names: Natália
+  - family-names: Carina dos Santos
+    given-names: Paula
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Ribeiro da Mota
+    given-names: Rosilane
+keywords:
+  - Saúde
+  - Gerenciamento
+  - Qualidade de vida
+  - Ferramenta
+  - Exercício
+  - Fitness
+  - Peso
+  - Treino
+
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-meu-treino
+version: 1.0.0
+date-released: 2024-07-01
